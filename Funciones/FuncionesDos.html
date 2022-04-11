@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function saltarLinea(){  // Esta funcion genera los saltos de linea
+            document.write("<br>")
+            document.write("<br>")
+            document.write("<br>")
+        }
+
+        function imprimir(frase){  //Esta funcion imprime texto en pantalla
+
+            document.write(frase)
+            saltarLinea();
+
+        }
+
+        document.write("------------------- Funciones  ---------------------------")
+
+        var anyo = 2025;
+        saltarLinea();
+        imprimir("Juan Tiene : " + (anyo - 2000) + " Años");
+        anyo = 2030;
+        saltarLinea();
+        imprimir("Pedro Tiene : " + (anyo - 1995) + " Años");
+        saltarLinea();
+        imprimir("Carlos Tiene : " + (anyo - 2005) + " Años");
+
+        imprimir("------------------- Funciones integrada  ---------------------------")
+
+   /*    function imprimir(frase) {  //Esta funcion imprime texto en pantalla
+
+                document.write(frase)
+                saltarLinea();
+
+            }   */
+        
+        imprimir("Juan Tiene : " + (anyo - 2000) + " Años");
+        imprimir("Pedro Tiene : " + (anyo - 1995) + " Años");        
+        imprimir("Carlos Tiene : " + (anyo - 2005) + " Años");
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo diferencia de edades</title>
+</head>
+<body>
+    <script>
+        function saltarLinea() {  // Esta funcion genera los saltos de linea
+                document.write("<br>")
+                document.write("<br>")
+                
+            }
+
+            function imprimir(frase) {  //Esta funcion imprime texto en pantalla
+
+                document.write(frase)
+                saltarLinea();
+
+            }
+
+            function mostrarAlerta(mensaje) {
+                    alert("***" + mensaje + "***");
+                }
+
+            var  edad = 37  
+            var edadHermano = 50
+            var diferenciaEdad = edadHermano -  edad
+
+            mostrarAlerta("La diferencia de Edad es : " + diferenciaEdad + " Años");
+            imprimir("Edad Hermano : " + " " + edadHermano + "  Años");
+            imprimir("Mi edad : " + " " + edad + " Años");
+            imprimir("La diferencia es" + " " + diferenciaEdad + " Años");
+            
+
+    </script>
+</body>
+</html>
