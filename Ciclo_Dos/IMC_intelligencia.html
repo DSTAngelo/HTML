@@ -31,6 +31,30 @@
             imcCalcular = calcularImc(pesoInformado, alturaInformado);
 
             imprimir(nombre + " Tu IMC es   : " + imcCalcular);
+
+            if (imcCalcular < 18.5) {
+                imprimir("Bajo peso");
+            }
+
+            if (imcCalcular >= 18.5 && imcCalcular <= 24.9) {
+                imprimir("Peso normal");
+            }
+
+            if (imcCalcular >= 25 && imcCalcular <= 29.9) {
+                imprimir("Pre-obesidad o Sobrepeso");
+            }
+            if (imcCalcular >= 30 && imcCalcular <= 34.9) {
+                imprimir("Obesidad clase I");
+
+            }
+            if (imcCalcular >= 35 && imcCalcular <= 39.9) {
+                imprimir("Obesidad clase II");
+
+            }
+            if (imcCalcular >= 40) {
+                imprimir("Obesidad clase III");
+
+            }
         </script>
     </body>
 
