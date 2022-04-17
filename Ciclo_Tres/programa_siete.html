@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Document</title>
+
+                </head>
+                <body>
+                    <canvas width="600" height="400"></canva>
+
+                    <script>
+
+                        // Siempre define la pantalla
+                        var pantalla = document.querySelector("canvas");
+                        var pincel = pantalla.getContext("2d");
+                        pincel.fillStyle = "grey";
+                        pincel.fillRect(0, 0, 600, 400);
+
+                        // funciones
+                        // funcion para diseñar circunferencia
+
+                        function diseyarCircunferencia(x, y, radio) { // parametros
+                            pincel.fillStyle = "green";
+                            pincel.beginPath();
+                            pincel.arc(x, y, radio, 0, 2 * Math.PI); // parametro 0 es =  a angulo inicial
+                            pincel.fill();
+                        }
+
+                        function limpiarPantalla() {
+                            pincel.clearRect(0, 0, 600, 400);
+
+                        }
+                        
+                        var x = 0;
+                        function actualizarPantalla() {
+                            limpiarPantalla();
+                            diseyarCircunferencia(x, 20, 10);
+                            x++;
+
+                        }
+
+                        //Ejecutamos el programa en pantalla
+
+                        setInterval(actualizarPantalla, 5); //el 5 controla la velocidad
+
+                         
+                    </script>
+
+                </body>
+            </html>
