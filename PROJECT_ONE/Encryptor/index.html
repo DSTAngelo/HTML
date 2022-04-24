@@ -19,8 +19,10 @@
         <main>
             <div class="contenedor">
                 <div class="boxPrincipal">
-                    <div class="class boxText">
-                        <input type="text" class="caja_uno" id="caja_uno">
+                    <div class="cajaTexto">
+                        <input type="text" class="caja_uno" id="caja_uno" placeholder="Ingrese el Text Aqui">
+                    </div>
+                    <div class="mensaje">
                         <label class="mensaje_acento">Solo letras minúsculas y sin acentos</label>
                     </div>
                     <div class="buttonPrincipal">
@@ -30,15 +32,12 @@
                 </div>
                     <div class="boxSecundaria">
                         <div class="boxRespuesta">
-                            <textarea name="respuestaArea" class="caja_dos" id="respuesta" rows="10" cols="45"> </textarea>
-                            <input class="copiarButton" type="button" value="Copiar" onclick=" copyToClipBoard()">
-
-
-
+                            <textarea name="respuestaArea" class="caja_dos" id="respuesta" rows="15" cols="40"> </textarea>
                         </div>
-
                     </div>
-
+                    <div class="botonCopiar">
+                        <input class="copiarButton" type="button" value="Copiar" onclick=" copyToClipBoard()">
+                    </div>
                 </div>
             </div>
         </main>

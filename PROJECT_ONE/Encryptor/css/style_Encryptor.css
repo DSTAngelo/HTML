@@ -1,10 +1,53 @@
 body{
-    background-color: #F3F5FC;
+    
+    position: relative; width: 100%; height: 100%;
+    background: #F3F5FC;
 }
 
-main {
-    display: block;
-    height: 100%;
-    width: 100%;
-    
+.caja_uno{
+    position: relative; width: 300px; height: 48px; left: 1%; top: 152px;
+    right:1%; font-family: 'Inter'; font-style: normal; font-weight: 400; 
+    font-size: 32px;
+    color: #0A3871;
 }
+
+.mensaje{
+    position: relative; display: relative; 
+    top: 420px;
+}
+.mensaje_acento{
+    font-family: 'Inter'; font-style: normal; font-weight: 400; font-size: 16px; line-height: 150%;
+    color: #495057;
+}
+
+
+
+.buttonPrincipal{
+    position: relative; display: relative; 
+    top: 380px;
+}
+
+.encryptorButton{
+    position: relative; width: 250px; height: 50px;
+    display: relative; text-align: center;
+    left: 10%;  right: 10%; top: 50px;
+    border: 1px solid #0A3871; box-sizing: border-box; border-radius: 24px;
+}
+.decryptorButton{
+    position: relative; width: 250px; height: 50px;
+    display: relative; text-align: center;
+    left: 10%;  right: 10%; top: 60px;
+    border: 1px solid #0A3871; box-sizing: border-box; border-radius: 24px;
+}
+.boxRespuesta{
+    position: relative; display: relative; 
+    left: 1%;  right: 0%; top: 490px;
+}
+
+.copiarButton{
+    position: relative; width: 250px; height: 50px;
+    display: relative; text-align: center;
+    left: 10%;  right: 10%; top: 500px;
+    border: 1px solid #0A3871; box-sizing: border-box; border-radius: 24px;
+}
+
