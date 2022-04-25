@@ -7,38 +7,41 @@
         <link rel="stylesheet" href="css/style_Encryptor.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script type="text/javascript" src="js/encryptor.js"></script>
-        <title>Encryptor - Decryptor</title>
+        <title>Encryptor</title>
     </head>
     <body>
 
         <header>
             <h1>
-                Encryptor - Decryptor
+                Encryptor
             </h1>
         </header>
         <main>
             <div class="contenedor">
-                <div class="boxPrincipal">
                     <div class="cajaTexto">
-                        <input type="text" class="caja_uno" id="caja_uno" placeholder="Ingrese el Text Aqui">
+                        <input type="text" class="caja_uno" id="caja_uno" placeholder="Ingrese el Text Aqui" rows="12">
                     </div>
                     <div class="mensaje">
                         <label class="mensaje_acento">Solo letras minúsculas y sin acentos</label>
                     </div>
                     <div class="buttonPrincipal">
-                        <input class="encryptorButton" type="button" value="Encriptar" onclick="encryptor()">
+                        <input id ="botonEncriptar" class="encryptorButton" type="button" value="Encriptar" onclick="encryptor()">
+                    </div>  
+                   <div class="buttonSecundario">
                         <input class="decryptorButton" type="button" value="Desencriptar" onclick="decryptor()">
                     </div>
-                </div>
-                    <div class="boxSecundaria">
-                        <div class="boxRespuesta">
-                            <textarea name="respuestaArea" class="caja_dos" id="respuesta" rows="15" cols="43"> </textarea>
-                        </div>
+                   <div class="boxSecundaria">
+                        <textarea class="caja_dos" name="respuestaArea" id="respuesta" rows="12"></textarea>
                     </div>
                     <div class="botonCopiar">
                         <input class="copiarButton" type="button" value="Copiar" onclick=" copyToClipBoard()">
                     </div>
-                </div>
+                    <class="botonLimpiar">
+                        <input class="limpiarButton" type="button" value="Limpiar" onclick="limpiarCajas()">
+                    </div>
+                    </div>
+<!---->
+
             </div>
         </main>
 

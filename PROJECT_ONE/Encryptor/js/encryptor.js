@@ -1,3 +1,7 @@
+
+document.getElementById("botonEncriptar").enabled = false;
+
+
 // Funcion Saltar Linea
 
 function saltarLinea() {
@@ -17,6 +21,15 @@ function limpiarCaja(caja) {
   var content;
   content = document.getElementById(caja).value = "";
 }
+
+function limpiarCajas() {
+  var content;
+  content = document.getElementById("caja_uno").value = "";
+  content = document.getElementById("respuesta").value = " ";
+  window.location.reload();
+  content = document.getElementById("caja_uno").focus();
+}
+
 
 // Funcion Copy
 
