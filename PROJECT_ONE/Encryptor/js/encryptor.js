@@ -1,7 +1,3 @@
-
-document.getElementById("botonEncriptar").enabled = false;
-
-
 // Funcion Saltar Linea
 
 function saltarLinea() {
@@ -30,16 +26,29 @@ function limpiarCajas() {
   content = document.getElementById("caja_uno").focus();
 }
 
+//Bloquer cajas
+
+function bloquerCajas() {
+  var respuestaBloqueo =  document.getElementsByTagName("textArea").disabled;
+  
+}
+
 
 // Funcion Copy
 
 function copyToClipBoard() {
-  var content = document.getElementById("respuesta");
-  content.select();
-  document.execCommand("copy");
-  alert("Texto Copiado!");
-  limpiarCaja("respuesta");
-  window.location.reload();
+  
+  frase = document.getElementsByTagName("textArea")[0].value;
+  if (frase == "") {
+    alert("no hay texto para copiar");
+  } else {
+    var content = document.getElementById("respuesta");
+    content.select();
+    document.execCommand("copy");
+    alert("Texto Copiado!");
+    limpiarCaja("respuesta");
+    window.location.reload();
+  }
 }
 
 //Funcion Encryptar
@@ -89,4 +98,6 @@ function decryptor() {
     document.getElementById("respuesta").innerHTML = frase;
   }
 }
+
+bloquerCajas();
 

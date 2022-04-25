@@ -13,9 +13,11 @@
 header {
   position: absolute;
   left: 0%;
-  background-color: rgb(68, 148, 148);
+  background-color: rgba (68, 148, 148, 0.5);
   height: 60px;
   width: 100%;
+  background: linear-gradient(to right, #3caa94,#449494, #3caa94);
+    transition: 0.3s ease all;
 }
 
 header h1 {
@@ -63,9 +65,13 @@ input {
   border-radius: 10px;
 }
 
+.caja_uno{
+    font-size: 28px;
+}
+
 .mensaje_acento {
   position: absolute;
-  left: 17%;
+  left: 15%;
   top: 38%;
   right: 1%;
   font-family: "Inter";
@@ -81,7 +87,7 @@ input {
   left: 2%;
   top: 44%;
   right: 1%;
-  width: 45%;
+  width: 47%;
   height: 10%;
   border: 1px solid #bdbfc2;
   box-sizing: border-box;
@@ -93,10 +99,10 @@ input {
 
 .decryptorButton {
   position: absolute;
-  left: 53%;
+  left: 51%;
   top: 44%;
   right: 1%;
-  width: 45%;
+  width: 47%;
   height: 10%;
   border: 1px solid #bdbfc2;
   box-sizing: border-box;
@@ -122,13 +128,42 @@ input {
   border-radius: 10px;
 }
 
+.mensajeUno{
+    position: absolute;
+    top: 65%;
+    text-align: center;
+    left: 0%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+}
+
+.mensajeDos{
+    position: absolute;
+    top: 75%;
+    text-align: center;
+    left: 5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    text-align: center;
+    color: #449494;
+}
+
+
 .copiarButton {
   position: absolute;
   display: block;
   left: 2%;
   top: 91%;
   right: 1%;
-  width: 45%;
+  width: 47%;
   height: 8%;
   text-align: center;
   border: 1px solid #bdbfc2;
@@ -139,10 +174,10 @@ input {
 .limpiarButton {
   position: absolute;
   display: block;
-  left: 53%;
+  left: 51%;
   top: 91%;
   right: 1%;
-  width: 45%;
+  width: 47%;
   height: 8%;
   text-align: center;
   border: 1px solid #bdbfc2;

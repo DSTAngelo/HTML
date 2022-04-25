@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style_Encryptor.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script type="text/javascript" src="js/encryptor.js"></script>
         <title>Encryptor</title>
@@ -12,9 +13,7 @@
     <body>
 
         <header>
-            <h1>
-                Encryptor
-            </h1>
+            <h1><span class="icon-combination-lock"></span> Encryptor</h1>
         </header>
         <main>
             <div class="contenedor">
@@ -22,16 +21,19 @@
                         <input type="text" class="caja_uno" id="caja_uno" placeholder="Ingrese el Text Aqui" rows="12">
                     </div>
                     <div class="mensaje">
-                        <label class="mensaje_acento">Solo letras minúsculas y sin acentos</label>
+                    <label class="mensaje_acento">
+                        <span class="icon-info"></span> Solo letras minúsculas y sin acentos</label>
                     </div>
                     <div class="buttonPrincipal">
-                        <input id ="botonEncriptar" class="encryptorButton" type="button" value="Encriptar" onclick="encryptor()">
-                    </div>  
+                        <input id="botonEncriptar" class="encryptorButton" type="button" value="Encriptar" onclick="encryptor()">
+                    </div>
                    <div class="buttonSecundario">
                         <input class="decryptorButton" type="button" value="Desencriptar" onclick="decryptor()">
                     </div>
                    <div class="boxSecundaria">
-                        <textarea class="caja_dos" name="respuestaArea" id="respuesta" rows="12"></textarea>
+                        <textarea readonly class="caja_dos" name="respuestaArea" id="respuesta"  rows="12"></textarea>
+                        <label class="mensajeUno">Ningún mensaje fue encontrado</label>
+                        <label class="mensajeDos">Ingresa el texto de desees encriptar o desencriptar</label>
                     </div>
                     <div class="botonCopiar">
                         <input class="copiarButton" type="button" value="Copiar" onclick=" copyToClipBoard()">
@@ -41,10 +43,7 @@
                     </div>
                     </div>
 <!---->
-
             </div>
         </main>
-
-
     </body>
 </html>
