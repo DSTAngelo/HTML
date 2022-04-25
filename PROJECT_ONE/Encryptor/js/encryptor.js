@@ -45,10 +45,16 @@ function copyToClipBoard() {
 //Funcion Encryptar
 
 function encryptor() {
+
   var frase = "";
   //frase = prompt("Escribe una frase");
   frase = document.getElementsByTagName("input")[0].value;
-  frase = frase
+
+  if (frase == "") {
+    alert("por favor ingrese texto")
+  }
+  else {
+    frase = frase
     .replace(/e/gi, "enter")
     .replace(/i/gi, "imes")
     .replace(/a/gi, "ai")
@@ -58,6 +64,7 @@ function encryptor() {
 
   document.getElementById("respuesta").innerHTML = frase;
   limpiarCaja("caja_uno");
+  }
 }
 
 // Funcion Desencryptar
@@ -66,15 +73,20 @@ function decryptor() {
   var frase = "";
   //frase = prompt("Escribe una frase");
   frase = document.getElementsByTagName("input")[0].value;
-  frase = frase
-    .replace(/enter/gi, "e")
-    .replace(/imes/gi, "i")
-    .replace(/ai/gi, "a")
-    .replace(/ober/gi, "o")
-    .replace(/ufat/gi, "u");
 
-  console.log(frase);
-  document.getElementById("respuesta").innerHTML = frase;
+  if (frase == "") {
+    alert("por favor ingrese texto")
+  }
+  else {
+    frase = frase
+      .replace(/enter/gi, "e")
+      .replace(/imes/gi, "i")
+      .replace(/ai/gi, "a")
+      .replace(/ober/gi, "o")
+      .replace(/ufat/gi, "u");
+
+    console.log(frase);
+    document.getElementById("respuesta").innerHTML = frase;
+  }
 }
-
 
