@@ -48,6 +48,8 @@ function visibilizarTexto() {
 function ocultarTexto() {
   document.getElementById("mensaje_Uno").style.display = "none";
   document.getElementById("mensaje_Dos").style.display = "none";
+  //document.getElementById("mensaje_Uno").style.display = "none";
+  //document.getElementById("mensaje_Dos").style.display = "none";
 }
 
 // Funcion Copy
