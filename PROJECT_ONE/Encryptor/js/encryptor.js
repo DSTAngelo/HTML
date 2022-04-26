@@ -1,12 +1,4 @@
-$(document).ready("contenedor");
-$(window).resize(function () {});
-$(window).resize(function () {
-  var viewportWidth = $(window).width();
 
-  var viewportHeight = $(window).height();
-
-  //cambio del layout aqui.
-});
 
 // Funcion Saltar Linea
 
