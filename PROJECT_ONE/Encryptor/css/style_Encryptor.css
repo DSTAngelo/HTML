@@ -1,5 +1,6 @@
 :root {
   --colorTextos: #8dc9e6;
+  z-index: 100;
 }
 
 * {
@@ -34,6 +35,7 @@ header h1 {
 
 body {
   background: #f3f5fc;
+  z-index: 100;
 }
 
 .contenedor {
@@ -43,6 +45,7 @@ body {
   top: 12%;
   left: 1%;
   right: 1%;
+  z-index: 100;
   border: 1px solid #bdbfc2;
   box-sizing: border-box;
   border-radius: 1px;
@@ -58,7 +61,7 @@ body {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 28px;
   color: #0a3871;
   text-align: center;
   border: 1px solid #bdbfc2;
@@ -67,11 +70,9 @@ body {
   text-justify: justify;
   text-transform: lowercase;
   background-color: #ffffff50;
+  z-index: 100;
 }
 
-.caja_uno{
-    font-size: 28px;
-}
 
 .mensaje_acento {
   position: absolute;
@@ -79,6 +80,7 @@ body {
     text-align: center;
     width: 100%;
     left: 0%;
+    z-index: 100;
     font-family: 'Inter';
     font-style: normal;
     font-weight: bold;
@@ -91,6 +93,7 @@ body {
 .encryptorButton {
   position: absolute;
   left: 2%;
+  z-index: 100;
   top: 44%;
   right: 1%;
   width: 47%;
@@ -105,6 +108,7 @@ body {
 
 .decryptorButton {
   position: absolute;
+  z-index: 100;
   left: 51%;
   top: 44%;
   right: 1%;
@@ -117,6 +121,7 @@ body {
 
 .caja_dos {
   position: absolute;
+  z-index: 100;
   width: 96%;
   height: 35%;
   left: 2%;
@@ -136,6 +141,7 @@ body {
 
 .mensajeUno{
     position: absolute;
+    z-index: 100;
     display: none;
     top: 65%;
     text-align: center;
@@ -152,6 +158,7 @@ body {
 
 .mensajeDos{
     position: absolute;
+    z-index: 100;
     display:none;
     top: 75%;
     text-align: center;
@@ -170,6 +177,7 @@ body {
 
 .copiarButton {
   position: absolute;
+  z-index: 100;
   display: block;
   left: 2%;
   top: 91%;
@@ -184,6 +192,7 @@ body {
 
 .limpiarButton {
   position: absolute;
+  z-index: 100;
   display: block;
   left: 51%;
   top: 91%;
