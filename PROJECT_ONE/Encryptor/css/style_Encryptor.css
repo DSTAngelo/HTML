@@ -53,6 +53,20 @@ body {
   z-index: 90;
 }
 
+.contenedorDos{
+  position: absolute;
+  width: 98%;
+  height: 87%;
+  top: 12%;
+  left: 1%;
+  right: 1%;
+  border: 1px solid #bdbfc2;
+  box-sizing: border-box;
+  border-radius: 1px;
+  z-index: 80;
+}
+
+
 .caja_uno {
   position: absolute;
   width: 96%;
