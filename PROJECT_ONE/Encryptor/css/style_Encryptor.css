@@ -41,12 +41,13 @@ header {
 
 
 .contenedor {
-  position:fixed;
+ /* display: none;*/
   width: 98%;
-  height: 32%;
-  top: 10%;
-  left: 1%;
-  right: 1%;
+  height: 100%;
+  margin-top: 2%;
+  margin-left: 1%;
+  margin-right: 1%;
+  
   border: 1px solid #bdbfc2;
   box-sizing: border-box;
   border-radius: 1px;
@@ -56,7 +57,7 @@ header {
 .caja_uno {
   
   width: 96%;
-  height: 85%;
+  height: 10%;
   
   margin-left: 2%;
   margin-top: 2%;
@@ -64,7 +65,7 @@ header {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 18px;
   color: #0a3871;
   text-align: center;
   border: 1px solid #bdbfc2;
@@ -73,12 +74,10 @@ header {
   text-justify: justify;
   text-transform: lowercase;
   background-color: #ffffff50;
-  
 }
 
 
 .mensaje_acento {
-  
     margin-top: 1%;
     margin: auto;
     width: 100%;
@@ -92,7 +91,47 @@ header {
     line-height: 200%;
     text-align: center;
     color: #449494;
-    
+}
+
+.contenedorDos{
+  position:fixed;
+  display:block;
+  width: 98%;
+  height: 70%;
+  top: 14%;
+}
+
+.contenedorTres {
+  position:fixed;
+  display:block;
+  width: 98%;
+  height: 25%;
+  top: 65%;
+  margin-left: 1%;
+  margin-right: 1%;
+  
+  border: 1px solid #bdbfc2;
+  box-sizing: border-box;
+  border-radius: 1px;
+}
+
+.caja_dos {
+  
+  width: 96%;
+  height: 92%;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-right: 5%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #0a3871;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #bdbfc2;
+  box-sizing: border-box;
+  border-radius: 10px;
 }
 
 .encryptorButton {
@@ -109,7 +148,7 @@ header {
   border-radius: 10px;
   background: #46c586;
   color: #FFFFFF;
- 
+  
 
 }
 
@@ -125,28 +164,10 @@ header {
   box-sizing: border-box;
   border-radius: 10px;
   
+  
 }
 
-.caja_dos {
-  position: absolute;
-  
-  width: 96%;
-  height: 35%;
-  left: 2%;
-  top: 55%;
-  right: 1%;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  color: #0a3871;
-  text-align: center;
-  padding: 10px;
-  border: 1px solid #bdbfc2;
-  box-sizing: border-box;
-  border-radius: 10px;
-  
-}
+
 
 .mensajeUno{
     position: absolute;
