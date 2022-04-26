@@ -36,20 +36,21 @@ header h1 {
 
 body {
   background: #f3f5fc;
-  z-index: 100;
+  
 }
 
 .contenedor {
-  position: fixed;
+  position: absolute;
   width: 98%;
   height: 87%;
   top: 12%;
   left: 1%;
   right: 1%;
-  z-index: 100;
+  
   border: 1px solid #bdbfc2;
   box-sizing: border-box;
   border-radius: 1px;
+  z-index: 90;
 }
 
 .caja_uno {
@@ -71,6 +72,7 @@ body {
   text-justify: justify;
   text-transform: lowercase;
   background-color: #ffffff50;
+  z-index: 80;
 }
 
 
@@ -86,6 +88,7 @@ body {
     line-height: 200%;
     text-align: center;
     color: #449494;
+    z-index: 70;
 }
 
 .encryptorButton {
@@ -100,7 +103,7 @@ body {
   border-radius: 10px;
   background: #46c586;
   color: #FFFFFF;
-  z-index: auto;
+  z-index: 20;
 
 }
 
@@ -115,7 +118,7 @@ body {
   border: 1px solid #bdbfc2;
   box-sizing: border-box;
   border-radius: 10px;
-  z-index: auto;
+  z-index: 20;
 }
 
 .caja_dos {
@@ -136,6 +139,7 @@ body {
   border: 1px solid #bdbfc2;
   box-sizing: border-box;
   border-radius: 10px;
+  z-index: 20;
 }
 
 .mensajeUno{
@@ -153,6 +157,7 @@ body {
     line-height: 120%;
     text-align: center;
     color: #343A40;
+    z-index: 20;
 }
 
 .mensajeDos{
@@ -170,6 +175,7 @@ body {
     line-height: 200%;
     text-align: center;
     color: #449494;
+    z-index: 20;
 }
 
 
@@ -187,6 +193,7 @@ body {
   border: 1px solid #bdbfc2;
   box-sizing: border-box;
   border-radius: 10px;
+  z-index: 10;
 }
 
 .limpiarButton {
@@ -202,6 +209,7 @@ body {
   border: 1px solid #bdbfc2;
   box-sizing: border-box;
   border-radius: 10px;
+  z-index: 10;
 }
 
 body::-webkit-scrollbar{
