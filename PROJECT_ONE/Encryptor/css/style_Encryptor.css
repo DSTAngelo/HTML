@@ -203,3 +203,12 @@ body {
   background: #3caa94;
   border-radius: 5px;
 }
+
+@media (min-width: 200px) {
+  
+.limpiarButton {
+  
+  display: none;}
+  
+  
+}
