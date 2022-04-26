@@ -42,7 +42,7 @@ body {
 .contenedor {
   position: absolute;
   width: 98%;
-  height: 87%;
+  height: 30%;
   top: 12%;
   left: 1%;
   right: 1%;
@@ -60,9 +60,9 @@ body {
 .caja_uno {
   position: absolute;
   width: 96%;
-  height: 35%;
+  height: 85%;
   left: 2%;
-  top: 1%;
+  top: 3%;
   right: 1%;
   font-family: "Inter";
   font-style: normal;
@@ -82,8 +82,9 @@ body {
 
 .mensaje_acento {
   position: absolute;
-    top: 38%;
+    top:89%;
     width: 100%;
+    height: 90%;
     left: 0%; 
     font-family: 'Inter';
     font-style: normal;
