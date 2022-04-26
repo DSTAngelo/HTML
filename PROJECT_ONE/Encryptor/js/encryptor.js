@@ -11,8 +11,6 @@ function imprimir(frase) {
   saltarLinea();
 }
 
-
-
 //Limpiar Caja Uno
 
 function limpiarCaja(caja) {
@@ -45,7 +43,6 @@ function ocultarTexto() {
 // Funcion Copy
 
 function copyToClipBoard() {
-  
   respuesta = document.getElementsByTagName("textarea")[1].value;
   if (respuesta == "") {
     visibilizarTexto();
@@ -65,21 +62,20 @@ function encryptor() {
   var frase = "";
   //frase = prompt("Escribe una frase");
   frase = document.getElementsByTagName("textarea")[0].value;
-  
+
   if (frase == "") {
     visibilizarTexto();
-  }
-  else {
+  } else {
     frase = frase
-    .replace(/e/gi, "enter")
-    .replace(/i/gi, "imes")
-    .replace(/a/gi, "ai")
-    .replace(/o/gi, "ober")
-    .replace(/u/gi, "ufat");
-  console.log(frase);
- 
-  document.getElementById("respuesta").innerHTML = frase;
-  limpiarCaja("cajaUno");
+      .replace(/e/gi, "enter")
+      .replace(/i/gi, "imes")
+      .replace(/a/gi, "ai")
+      .replace(/o/gi, "ober")
+      .replace(/u/gi, "ufat");
+    console.log(frase);
+
+    document.getElementById("respuesta").innerHTML = frase;
+    limpiarCaja("cajaUno");
   }
 }
 
@@ -91,8 +87,7 @@ function decryptor() {
 
   if (frase == "") {
     visibilizarTexto();
-  }
-  else {
+  } else {
     frase = frase
       .replace(/enter/gi, "e")
       .replace(/imes/gi, "i")
@@ -105,4 +100,14 @@ function decryptor() {
   }
 }
 
+function hideNavbar() {
+  if (screen.height <= 480) {
+    document.getElementById("navbar").style.zIndex = "-1";
+  }
+}
 
+function showNavbar() {
+  if (screen.height <= 480) {
+    document.getElementById("navbar").style.zIndex = "1";
+  }
+}
