@@ -9,16 +9,16 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  z-index: 100;
+  z-index: 1;
 }
 
 header {
-  position: absolute;
+  position: fixed;
   left: 0%;
   background-color: rgba (68, 148, 148, 0.5);
   height: 60px;
   width: 100%;
-  
+  z-index: 100;
   background: linear-gradient(to right, #3caa94,#449494, #3caa94);
   transition: 0.3s ease all;
 }
