@@ -47,7 +47,7 @@ body {
   border-radius: 1px;
 }
 
-input {
+.caja_uno {
   position: absolute;
   width: 96%;
   height: 35%;
@@ -63,6 +63,9 @@ input {
   border: 1px solid #bdbfc2;
   box-sizing: border-box;
   border-radius: 10px;
+  text-justify: justify;
+  text-transform: lowercase;
+  background-color: #ffffff50;
 }
 
 .caja_uno{
@@ -71,15 +74,17 @@ input {
 
 .mensaje_acento {
   position: absolute;
-  left: 15%;
-  top: 38%;
-  right: 1%;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  color: #495057;
+    top: 38%;
+    text-align: center;
+    width: 100%;
+    left: 0%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 200%;
+    text-align: center;
+    color: #449494;
 }
 
 .encryptorButton {
@@ -130,13 +135,15 @@ input {
 
 .mensajeUno{
     position: absolute;
+    display: none;
     top: 65%;
     text-align: center;
+    width: 100%;
     left: 0%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 120%;
     text-align: center;
     color: #343A40;
@@ -144,17 +151,20 @@ input {
 
 .mensajeDos{
     position: absolute;
+    display:none;
     top: 75%;
     text-align: center;
-    left: 5%;
+    width: 100%;
+    left: 0%;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: bold;
+    font-size: 14px;
     line-height: 200%;
     text-align: center;
     color: #449494;
 }
+
 
 
 .copiarButton {
@@ -183,4 +193,13 @@ input {
   border: 1px solid #bdbfc2;
   box-sizing: border-box;
   border-radius: 10px;
+}
+
+.contenedor::-webkit-scrollbar{
+  width: 7px;
+}
+
+.contenedor::-webkit-scrollbar-thumb{
+  background: #3caa94;
+  border-radius: 5px;
 }

@@ -18,11 +18,10 @@
         <main>
             <div class="contenedor">
                     <div class="cajaTexto">
-                        <input type="text" class="caja_uno" id="caja_uno" placeholder="Ingrese el Text Aqui" rows="12">
+                        <textarea type="text" class="caja_uno" id="cajaUno" placeholder="Ingrese el Texto Aqui" rows="10" onclick="ocultarTexto()"></textarea>
                     </div>
                     <div class="mensaje">
-                    <label class="mensaje_acento">
-                        <span class="icon-info"></span> Solo letras minúsculas y sin acentos</label>
+                        <label class="mensaje_acento"><span class="icon-info"></span> Solo letras minúsculas y sin acentos</label>
                     </div>
                     <div class="buttonPrincipal">
                         <input id="botonEncriptar" class="encryptorButton" type="button" value="Encriptar" onclick="encryptor()">
@@ -32,9 +31,13 @@
                     </div>
                    <div class="boxSecundaria">
                         <textarea readonly class="caja_dos" name="respuestaArea" id="respuesta"  rows="12"></textarea>
-                        <label class="mensajeUno">Ningún mensaje fue encontrado</label>
-                        <label class="mensajeDos">Ingresa el texto de desees encriptar o desencriptar</label>
                     </div>
+                    <div id ="mensajeError">
+                        <label class="mensajeUno" id="mensaje_Uno"><h2>Ningún mensaje fue encontrado</h2></label>
+                        <label class="mensajeDos" id="mensaje_Dos">Ingresa el texto de desees encriptar o desencriptar</label>
+                    </div>
+
+
                     <div class="botonCopiar">
                         <input class="copiarButton" type="button" value="Copiar" onclick=" copyToClipBoard()">
                     </div>

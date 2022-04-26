@@ -11,6 +11,8 @@ function imprimir(frase) {
   saltarLinea();
 }
 
+
+
 //Limpiar Caja Uno
 
 function limpiarCaja(caja) {
@@ -20,32 +22,38 @@ function limpiarCaja(caja) {
 
 function limpiarCajas() {
   var content;
-  content = document.getElementById("caja_uno").value = "";
+  content = document.getElementById("cajaUno").value = "";
   content = document.getElementById("respuesta").value = " ";
   window.location.reload();
-  content = document.getElementById("caja_uno").focus();
+  content = document.getElementById("cajaUno").focus();
 }
 
-//Bloquer cajas
+//Visibilizar
 
-function bloquerCajas() {
-  var respuestaBloqueo =  document.getElementsByTagName("textArea").disabled;
-  
+function visibilizarTexto() {
+  document.getElementById("mensaje_Uno").style.display = "block";
+  document.getElementById("mensaje_Dos").style.display = "block";
 }
 
+//Ocultar
+
+function ocultarTexto() {
+  document.getElementById("mensaje_Uno").style.display = "none";
+  document.getElementById("mensaje_Dos").style.display = "none";
+}
 
 // Funcion Copy
 
 function copyToClipBoard() {
   
-  frase = document.getElementsByTagName("textArea")[0].value;
-  if (frase == "") {
-    alert("no hay texto para copiar");
+  respuesta = document.getElementsByTagName("textarea")[1].value;
+  if (respuesta == "") {
+    visibilizarTexto();
   } else {
     var content = document.getElementById("respuesta");
     content.select();
     document.execCommand("copy");
-    alert("Texto Copiado!");
+    alert("Texto Copiado al Portapapeles!");
     limpiarCaja("respuesta");
     window.location.reload();
   }
@@ -54,13 +62,12 @@ function copyToClipBoard() {
 //Funcion Encryptar
 
 function encryptor() {
-
   var frase = "";
   //frase = prompt("Escribe una frase");
-  frase = document.getElementsByTagName("input")[0].value;
-
+  frase = document.getElementsByTagName("textarea")[0].value;
+  
   if (frase == "") {
-    alert("por favor ingrese texto")
+    visibilizarTexto();
   }
   else {
     frase = frase
@@ -70,9 +77,9 @@ function encryptor() {
     .replace(/o/gi, "ober")
     .replace(/u/gi, "ufat");
   console.log(frase);
-
+ 
   document.getElementById("respuesta").innerHTML = frase;
-  limpiarCaja("caja_uno");
+  limpiarCaja("cajaUno");
   }
 }
 
@@ -80,11 +87,10 @@ function encryptor() {
 
 function decryptor() {
   var frase = "";
-  //frase = prompt("Escribe una frase");
-  frase = document.getElementsByTagName("input")[0].value;
+  frase = document.getElementsByTagName("textarea")[0].value;
 
   if (frase == "") {
-    alert("por favor ingrese texto")
+    visibilizarTexto();
   }
   else {
     frase = frase
@@ -99,5 +105,4 @@ function decryptor() {
   }
 }
 
-bloquerCajas();
 
