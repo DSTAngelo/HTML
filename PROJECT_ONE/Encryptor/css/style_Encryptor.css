@@ -13,7 +13,7 @@
 }
 
 header {
-  position: fixed;
+  position: absolute;
   left: 0%;
   background-color: rgba (68, 148, 148, 0.5);
   height: 60px;
@@ -24,14 +24,14 @@ header {
 }
 
 header h1 {
-  position: fixed;
+  position: absolute;
   height: 60px;
   width: 100%;
   font-size: 30px;
   font-style: bold;
   color: #ffffff;
   text-align: center;
-  top:2%;
+  top:25%;
 }
 
 body {
@@ -77,10 +77,8 @@ body {
 .mensaje_acento {
   position: absolute;
     top: 38%;
-    text-align: center;
     width: 100%;
-    left: 0%;
-    
+    left: 0%; 
     font-family: 'Inter';
     font-style: normal;
     font-weight: bold;
@@ -93,7 +91,6 @@ body {
 .encryptorButton {
   position: absolute;
   left: 2%;
-  
   top: 44%;
   right: 1%;
   width: 47%;
@@ -103,6 +100,7 @@ body {
   border-radius: 10px;
   background: #46c586;
   color: #FFFFFF;
+  z-index: auto;
 
 }
 
@@ -117,6 +115,7 @@ body {
   border: 1px solid #bdbfc2;
   box-sizing: border-box;
   border-radius: 10px;
+  z-index: auto;
 }
 
 .caja_dos {

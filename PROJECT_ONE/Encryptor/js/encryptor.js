@@ -1,4 +1,4 @@
-$(document).ready(main);
+$(document).ready("contenedor");
 $(window).resize(function () {});
 $(window).resize(function () {
   var viewportWidth = $(window).width();
