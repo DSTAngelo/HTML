@@ -54,7 +54,7 @@ body {
 }
 
 .contenedorDos{
-  position: absolute;
+  position: fixed;
   width: 98%;
   height: 87%;
   top: 12%;
@@ -65,6 +65,20 @@ body {
   border-radius: 1px;
   z-index: 80;
 }
+
+.contenedoTres{
+  position: fixed;
+  width: 98%;
+  height: 87%;
+  top: 12%;
+  left: 1%;
+  right: 1%;
+  border: 1px solid #bdbfc2;
+  box-sizing: border-box;
+  border-radius: 1px;
+  z-index: 70;
+}
+
 
 
 .caja_uno {
