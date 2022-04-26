@@ -39,7 +39,8 @@ header {
 }
 
 .contenedor {
- display: block;
+  position: absolute;
+  display: block;
   width: 98%;
   margin-top: 2%;
   margin-left: 1%;
@@ -92,11 +93,12 @@ header {
 
 
 .caja_dos {
-  position: fixed;
+  position: absolute;
+  
   width: 96%;
   height: 30%;
   margin-left: 2%;
-  margin-top: 29%;
+  margin-top: 105%;
   margin-right: 5%;
   font-family: "Inter";
   font-style: normal;
