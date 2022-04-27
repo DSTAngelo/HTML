@@ -35,6 +35,8 @@ function limpiarCajas() {
 function visibilizarTexto() {
   document.getElementById("mensaje_Uno").style.display = "block";
   document.getElementById("mensaje_Dos").style.display = "block";
+  document.getElementById("respuesta").style.display = "none";
+
 }
 
 //Ocultar
@@ -42,10 +44,16 @@ function visibilizarTexto() {
 function ocultarTexto() {
   document.getElementById("mensaje_Uno").style.display = "none";
   document.getElementById("mensaje_Dos").style.display = "none";
+  document.getElementById("respuesta").style.display = "block";
   //document.getElementById("mensaje_Uno").style.display = "none";
   //document.getElementById("mensaje_Dos").style.display = "none";
 }
 
+function ocultar_cajas(){
+  visibilizarTexto();
+  document.getElementById("respuesta").style.display = "none";
+  document.getElementById("botonEncriptar").style.display = "none";
+}
 // Funcion Copy
 
 function copyToClipBoard() {
@@ -71,6 +79,7 @@ function encryptor() {
 
   if (frase == "") {
     visibilizarTexto();
+    
   } else {
     frase = frase
       .replace(/e/gi, "enter")
