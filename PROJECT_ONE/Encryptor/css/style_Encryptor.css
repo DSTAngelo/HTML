@@ -57,6 +57,7 @@ header {
   background-color: #ffffff50;
   border: 1px solid #ccc;
   border-radius: 4px;
+  resize: none;
   
 }
 
@@ -118,6 +119,7 @@ header {
   margin-top: 6%;
   left:2%;
   right:2%;
+  padding: 2%;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -129,6 +131,7 @@ header {
   background-color: #ffffff50;
   border: 1px solid #ccc;
   border-radius: 4px;
+  resize: none;
 }
 
 .mensajeUno{
@@ -180,13 +183,12 @@ header {
 }
 
 .limpiarButton {
-  background-color: #4CAF50; /* Green */
+  background-color: #46c586; /* Green */
     border: 1px solid #bdbfc2;
     box-sizing: border-box;
     border-radius: 10px;
     color: white;
     padding: 4%;
-    /*padding: 15px 32px;*/
     text-align: center;
     text-decoration: none;
     display: inline-block;

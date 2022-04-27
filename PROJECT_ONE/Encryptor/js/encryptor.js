@@ -45,8 +45,6 @@ function ocultarTexto() {
   document.getElementById("mensaje_Uno").style.display = "none";
   document.getElementById("mensaje_Dos").style.display = "none";
   document.getElementById("respuesta").style.display = "block";
-  //document.getElementById("mensaje_Uno").style.display = "none";
-  //document.getElementById("mensaje_Dos").style.display = "none";
 }
 
 function ocultar_cajas(){
