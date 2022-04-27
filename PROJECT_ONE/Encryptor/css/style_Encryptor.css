@@ -42,7 +42,7 @@ header {
   position: relative;
   width: 96%;
   height:5%;
-  margin-top: 5%;
+  margin-top: 6%;
   left:2%;
   right:2%;
 }
@@ -69,21 +69,36 @@ header {
     display: inline-block;
     font-size: 16px;
     margin-top: 5%;
-    margin-left: 2%;
+    margin-left: 3%;
+    margin-right: 2%;
+    width: 45%;
   
 
 }
 
 .decryptorButton {
-  position:relative;
-  left: 5%;
-  top: 45%;
-  right: 1%;
-  width: 47%;
-  height: 10%;
-  border: 1px solid #bdbfc2;
-  box-sizing: border-box;
-  border-radius: 10px;
-  z-index: 1;
+  background-color: #4CAF50; /* Green */
+    border: 1px solid #bdbfc2;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 5%;
+    margin-left: 0%;
+    margin-right: 2%;
+    width: 45%;
 
+}
+
+.caja_dos {
+  position: relative;
+  width: 96%;
+  height:5%;
+  margin-top: 6%;
+  left:2%;
+  right:2%;
 }
