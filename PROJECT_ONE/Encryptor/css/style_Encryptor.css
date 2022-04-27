@@ -126,7 +126,7 @@ header {
 .mensajeUno{
   position: absolute;
   width: 96%;
-  top: 78%;
+  top: 80%;
   left:2%;
   text-align: center;
   font-family: 'Inter';
@@ -139,7 +139,7 @@ header {
 .mensajeDos{
   position: absolute;
   width: 96%;
-  top: 91%;
+  top: 93%;
   left:2%;
   text-align: center;
   font-family: 'Inter';
