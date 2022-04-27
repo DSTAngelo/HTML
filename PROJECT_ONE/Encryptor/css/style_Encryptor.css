@@ -45,25 +45,38 @@ header {
   margin-top: 6%;
   left:2%;
   right:2%;
+  padding: 2%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-justify: justify;
+  text-align: center;
+  color: #0a3871;
+  background-color: #ffffff50;
+  
 }
 
 .mensaje_acento{
   position: relative;
   width: 96%;
-  top: 50%;
+  top: 2%;
   left:2%;
-  margin-top: 10%;
+  margin-top: 1%;
   text-align: center;
+  color: #449494;
+  padding: 1%;
+  display: inline-block;
 
 }
 
 .encryptorButton {
-    background-color: #4CAF50; /* Green */
+    background-color: #46c586; /* Green */
     border: 1px solid #bdbfc2;
     box-sizing: border-box;
     border-radius: 10px;
     color: white;
-    padding: 15px 32px;
+    padding: 4%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -77,12 +90,13 @@ header {
 }
 
 .decryptorButton {
-  background-color: #4CAF50; /* Green */
+  background-color: #46c586; /* Green */
     border: 1px solid #bdbfc2;
     box-sizing: border-box;
     border-radius: 10px;
     color: white;
-    padding: 15px 32px;
+    padding: 4%;
+    /*padding: 15px 32px;*/
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -101,4 +115,79 @@ header {
   margin-top: 6%;
   left:2%;
   right:2%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #0a3871;
+  text-align: center;
 }
+
+.mensajeUno{
+  position: absolute;
+  width: 96%;
+  top: 63%;
+  left:2%;
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #343A40;
+  display: none;
+}
+.mensajeDos{
+  position: absolute;
+  width: 96%;
+  top: 75%;
+  left:2%;
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 200%;
+  color: #449494;
+  display: none;
+}
+
+
+
+
+.copiarButton {
+  background-color: #46c586; /* Green */
+    border: 1px solid #bdbfc2;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: white;
+    padding: 4%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 2%;
+    width: 45%;
+}
+
+.limpiarButton {
+  background-color: #4CAF50; /* Green */
+    border: 1px solid #bdbfc2;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: white;
+    padding: 4%;
+    /*padding: 15px 32px;*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 2%;
+    margin-left: 0%;
+    margin-right: 2%;
+    width: 45%;
+}
+
+
+

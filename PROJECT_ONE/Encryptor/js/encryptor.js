@@ -26,6 +26,8 @@ function limpiarCajas() {
   content = document.getElementById("respuesta").value = " ";
   window.location.reload();
   content = document.getElementById("cajaUno").focus();
+  document.getElementById("mensaje_Uno").style.display = "none";
+  document.getElementById("mensaje_Dos").style.display = "none";
 }
 
 //Visibilizar
@@ -104,14 +106,3 @@ function decryptor() {
   }
 }
 
-function hideNavbar() {
-  if (screen.height <= 480) {
-    document.getElementById("navbar").style.zIndex = "-1";
-  }
-}
-
-function showNavbar() {
-  if (screen.height <= 480) {
-    document.getElementById("navbar").style.zIndex = "1";
-  }
-}
