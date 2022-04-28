@@ -12,21 +12,19 @@
   z-index: 1;
 }
 
-.container::-webkit-scrollbar{
-  width: 10%;
-}
-.container::-webkit-scrollbar-thumb{
-  background:#3caa94;
-}
-
-
-
-
-
 body {
   background: #f3f5fc; 
   overflow: auto;
 }
+
+body::-webkit-scrollbar{
+    width: 7px;
+  }
+
+body::-webkit-scrollbar-thumb{
+    background: #3caa94;
+    border-radius: 1px;
+  }
 
 header {
   left: 0%;
@@ -46,7 +44,6 @@ header {
   color: #ffffff;
   text-align: center;
   top:20%;
-  
 }
 
 .caja_uno{
@@ -67,7 +64,6 @@ header {
   color: #449494;
   padding: 1%;
   display: inline-block;
-
 }
 
 .encryptorButton {
@@ -81,10 +77,14 @@ header {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    
     margin-left: 3%;
     margin-right: 2%;
     width: 45%;
+}
+
+.encryptorButton:hover {
+  background-color: #bdbfc2;
+  color: #46c586;
 }
 
 .decryptorButton {
@@ -153,9 +153,6 @@ header {
   display: none;
 }
 
-
-
-
 .copiarButton {
     background-color: #46c586; /* Green */
     border: 1px solid #bdbfc2;
@@ -173,7 +170,7 @@ header {
 }
 
 .limpiarButton {
-  background-color: #46c586; /* Green */
+    background-color: #46c586; /* Green */
     border: 1px solid #bdbfc2;
     box-sizing: border-box;
     border-radius: 10px;
@@ -188,13 +185,22 @@ header {
     width: 45%;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) { /*Probado en ipad*/
 
   .container{
     border: 1px solid #bdbfc2; box-sizing: border-box; padding: 5%;
   }
   .caja_uno {
     font-size: 24px;
+    border: 1px solid #46c586; box-sizing: border-box;
+  }
+  .caja_uno::-webkit-scrollbar{
+    width: 7px;
+  }
+
+  .caja_uno::-webkit-scrollbar-thumb{
+    background: #46c586;
+    border-radius: 5px;
   }
   .mensaje_acento{
     font-family: 'Inter'; font-style: normal; font-weight: 700; font-size: 18px;
@@ -211,6 +217,15 @@ header {
   }
   .caja_dos {
     font-size: 24px;
+    border: 1px solid #46c586; box-sizing: border-box;
+  }
+  .caja_dos::-webkit-scrollbar{
+    width: 7px;
+  }
+
+  .caja_dos::-webkit-scrollbar-thumb{
+    background: #46c586;
+    border-radius: 5px;
   }
 
   .contenedorCuatro{

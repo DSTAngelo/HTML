@@ -77,7 +77,6 @@ function encryptor() {
 
   if (frase == "") {
     visibilizarTexto();
-    
   } else {
     frase = frase
       .replace(/e/gi, "enter")
