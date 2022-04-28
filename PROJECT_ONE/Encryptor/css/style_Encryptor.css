@@ -85,7 +85,7 @@ header {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-top: 5%;
+    
     margin-left: 3%;
     margin-right: 2%;
     width: 45%;
@@ -103,7 +103,6 @@ header {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-top: 5%;
     margin-left: 0%;
     margin-right: 2%;
     width: 45%;
@@ -114,7 +113,6 @@ header {
   position: relative;
   width: 96%;
   height:4%;
-  margin-top: 6%;
   left:2%;
   right:2%;
   padding: 2%;
@@ -174,7 +172,7 @@ header {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-top: 3%;
+    
     margin-left: 3%;
     margin-right: 2%;
     width: 45%;
@@ -191,9 +189,44 @@ header {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-top: 3%;
+    
     margin-left: 0%;
     margin-right: 2%;
     width: 45%;
 }
 
+@media only screen and (min-width: 768px) {
+
+  input{
+    padding: 1%;
+  }
+
+  .contenedorDos{
+    margin-top: 1%;
+    padding: 6%;
+  }
+
+  .encryptorButton {
+    padding: 6%;
+    font-size: 25px;
+  }
+  .decryptorButton {
+    padding: 6%;
+    font-size: 25px;
+  }
+
+  .contenedorCuatro{
+    padding: 6%; 
+  }
+  .copiarButton {
+    padding: 6%;
+    font-size: 25px;
+  }
+  .limpiarButton {
+    padding: 6%;
+    font-size: 25px;
+  }
+  .caja_uno {}
+  .mensaje_acento{}
+  .caja_dos {}
+}
