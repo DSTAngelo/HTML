@@ -113,7 +113,7 @@ header {
 .caja_dos {
   position: relative;
   width: 96%;
-  height:6%;
+  height:4%;
   margin-top: 6%;
   left:2%;
   right:2%;
@@ -197,30 +197,3 @@ header {
     width: 45%;
 }
 
-
-/*----------------------------------------------------------------------------------------
-
-/* Medium devices (landscape tablets, 768px and up) */
-
-@media only screen and (min-width: 768px) {
-
-  .encryptorButton {
-    padding: 6%;
-    font-size: 25px;
-  }
-  .decryptorButton {
-    padding: 6%;
-    font-size: 25px;
-  }
-  .copiarButton {
-    padding: 6%;
-    font-size: 25px;
-  }
-  .limpiarButton {
-    padding: 6%;
-    font-size: 25px;
-  }
-  .caja_uno {}
-  .mensaje_acento{}
-  .caja_dos {}
-}
