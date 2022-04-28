@@ -71,11 +71,11 @@ header {
   }
 
 .encryptorButton {
-    background-color: #f3f5fc; /* Green */
+    background-color: #46c586; /* Green */
     border: 1px solid #bdbfc2;
     box-sizing: border-box;
     border-radius: 10px;
-    color: #46c586;
+    color: white;
     padding: 12px 32px;
     text-align: center;
     text-decoration: none;
@@ -88,12 +88,12 @@ header {
 }
 
 .encryptorButton:hover {
-  background-color: #46c586;
-  color: white;
+  background-color: white;
+  color: #46c586;
 }
 
 .decryptorButton {
-  background-color: #f3f5fc; /* Green */
+  background-color: white; /* Green */
     border: 1px solid #bdbfc2;
     box-sizing: border-box;
     border-radius: 10px;
@@ -171,11 +171,11 @@ header {
   }
 
 .copiarButton {
-    background-color: #46c586; /* Green */
+    background-color: white; /* Green */
     border: 1px solid #bdbfc2;
     box-sizing: border-box;
     border-radius: 10px;
-    color: white;
+    color: #46c586;
     padding: 12px 32px;
     text-align: center;
     text-decoration: none;
@@ -186,12 +186,17 @@ header {
     width: 45%;
 }
 
+.copiarButton:hover {
+  background-color: #46c586;
+  color: white;
+}
+
 .limpiarButton {
-    background-color: #46c586; /* Green */
+    background-color: white; /* Green */
     border: 1px solid #bdbfc2;
     box-sizing: border-box;
     border-radius: 10px;
-    color: white;
+    color: #46c586;
     padding: 12px 32px;
     text-align: center;
     text-decoration: none;
@@ -200,6 +205,11 @@ header {
     margin-left: 0%;
     margin-right: 2%;
     width: 45%;
+}
+
+.limpiarButton:hover {
+  background-color: #46c586;
+  color: white;
 }
 
 @media only screen and (min-width: 768px) { /*Probado en ipad*/
