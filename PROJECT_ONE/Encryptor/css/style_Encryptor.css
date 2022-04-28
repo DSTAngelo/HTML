@@ -103,12 +103,19 @@ header {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    
     margin-left: 0%;
     margin-right: 2%;
     width: 45%;
-
 }
+
+.decryptorButton:hover {
+  background-color: #46c586;
+  color: white;
+}
+
+.contenedorTres{
+    margin-top:4%;
+  }
 
 .caja_dos {
   position: relative;
