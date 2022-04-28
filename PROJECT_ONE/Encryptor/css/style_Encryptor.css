@@ -196,37 +196,48 @@ header {
 }
 
 @media only screen and (min-width: 768px) {
-
+/*
   input{
     padding: 1%;
+  }*/
+  .caja_uno {
+    font-size: 24px;
   }
-
+  .mensaje_acento{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+  }
   .contenedorDos{
-    margin-top: 1%;
     padding: 6%;
   }
 
   .encryptorButton {
-    padding: 6%;
+    padding: 4%;
     font-size: 25px;
   }
   .decryptorButton {
-    padding: 6%;
+    padding: 4%;
     font-size: 25px;
   }
 
+  
+  .caja_dos {
+    font-size: 24px;
+  }
+
   .contenedorCuatro{
-    padding: 6%; 
+    padding: 6%;
   }
   .copiarButton {
-    padding: 6%;
+    padding: 4%;
     font-size: 25px;
   }
   .limpiarButton {
-    padding: 6%;
+    padding: 4%;
     font-size: 25px;
   }
-  .caja_uno {}
-  .mensaje_acento{}
-  .caja_dos {}
+  
+  
 }
