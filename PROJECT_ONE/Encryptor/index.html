@@ -18,30 +18,31 @@
             <h1 class = "titulo"><span class="icon-combination-lock"></span> Encryptor</h1>
         </header>
         <main>
-            <section class="contenedor">
-<textarea type="text" class="caja_uno" id="cajaUno" placeholder="Ingrese el Texto Aqui" rows="8" onclick="ocultarTexto()" autofocus="true"></textarea>
+            <div class="container">
+                <section class="contenedor">
+                            <textarea type="text" class="caja_uno" id="cajaUno" placeholder="Ingrese el Texto Aqui" rows="8" onclick="ocultarTexto()" autofocus="true"></textarea>
+                            <label class="mensaje_acento"><span class="icon-info"></span> Solo letras minúsculas y sin acentos</label>
+                </section>
+                <section class="contenedorDos">
+                            <input id="botonEncriptar" class="encryptorButton" type="button" value="Encriptar" onclick="encryptor()">
+                            <input class="decryptorButton" type="button" value="Desencriptar" onclick="decryptor()">
+                </section>
+                <section class="contenedorTres">
+                            <textarea readonly class="caja_dos" name="respuestaArea" id="respuesta"   rows="9"></textarea>
+                            <label class="mensajeUno" id="mensaje_Uno">
+                                <h2>
+                                    Ningún mensaje fue encontrado <span class="icon-info"></span>
+                                </h2>
+                            </label>
 
-                        <label class="mensaje_acento"><span class="icon-info"></span> Solo letras minúsculas y sin acentos</label>
-            </section>
-            <section class="contenedorDos">
-                        <input id="botonEncriptar" class="encryptorButton" type="button" value="Encriptar" onclick="encryptor()">
-                        <input class="decryptorButton" type="button" value="Desencriptar" onclick="decryptor()">
-            </section>
-            <section class="contenedorTres">
-                        <textarea readonly class="caja_dos" name="respuestaArea" id="respuesta"   rows="9"></textarea>
-                        <label class="mensajeUno" id="mensaje_Uno">
-                            <h2>
-                                Ningún mensaje fue encontrado <span class="icon-info"></span>
-                            </h2>
-                        </label>
 
-
-                        <label class="mensajeDos" id="mensaje_Dos">Ingresa el texto de desees encriptar o desencriptar</label>
-            </section>
-            <section class="contenedorCuatro">
-                        <input class="copiarButton" type="button" value="Copiar" onclick=" copyToClipBoard()">
-                        <input class="limpiarButton" type="button" value="Limpiar" onclick="limpiarCajas()">
-            </section>
+                            <label class="mensajeDos" id="mensaje_Dos">Ingresa el texto de desees encriptar o desencriptar</label>
+                </section>
+                <section class="contenedorCuatro">
+                            <input class="copiarButton" type="button" value="Copiar" onclick=" copyToClipBoard()">
+                            <input class="limpiarButton" type="button" value="Limpiar" onclick="limpiarCajas()">
+                </section>
+            </div>
         </main>
 <!---->
     </body>

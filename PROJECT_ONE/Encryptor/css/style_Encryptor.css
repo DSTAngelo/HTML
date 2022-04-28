@@ -162,7 +162,7 @@ header {
 
 
 .copiarButton {
-  background-color: #46c586; /* Green */
+    background-color: #46c586; /* Green */
     border: 1px solid #bdbfc2;
     box-sizing: border-box;
     border-radius: 10px;
@@ -172,7 +172,6 @@ header {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    
     margin-left: 3%;
     margin-right: 2%;
     width: 45%;
@@ -216,10 +215,12 @@ header {
   .encryptorButton {
     padding: 4%;
     font-size: 25px;
+    background-color: #449494;
   }
   .decryptorButton {
     padding: 4%;
     font-size: 25px;
+    background-color: #449494;
   }
 
   
@@ -233,10 +234,12 @@ header {
   .copiarButton {
     padding: 4%;
     font-size: 25px;
+    background-color: #449494;
   }
   .limpiarButton {
     padding: 4%;
     font-size: 25px;
+    background-color: #449494;
   }
   
   
