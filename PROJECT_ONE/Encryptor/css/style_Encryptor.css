@@ -195,10 +195,12 @@ header {
 }
 
 @media only screen and (min-width: 768px) {
-/*
-  input{
-    padding: 1%;
-  }*/
+
+  .container{
+    border: 1px solid #bdbfc2;
+    box-sizing: border-box;
+    padding: 5%;
+  }
   .caja_uno {
     font-size: 24px;
   }
