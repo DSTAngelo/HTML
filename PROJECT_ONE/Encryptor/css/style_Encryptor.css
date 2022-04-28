@@ -66,38 +66,44 @@ header {
   display: inline-block;
 }
 
+.contenedorDos{
+    margin-top:4%;
+  }
+
 .encryptorButton {
-    background-color: #46c586; /* Green */
+    background-color: #f3f5fc; /* Green */
     border: 1px solid #bdbfc2;
     box-sizing: border-box;
     border-radius: 10px;
-    color: white;
+    color: #46c586;
     padding: 12px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    
     margin-left: 3%;
     margin-right: 2%;
     width: 45%;
 }
 
 .encryptorButton:hover {
-  background-color: #bdbfc2;
-  color: #46c586;
+  background-color: #46c586;
+  color: white;
 }
 
 .decryptorButton {
-  background-color: #46c586; /* Green */
+  background-color: #f3f5fc; /* Green */
     border: 1px solid #bdbfc2;
     box-sizing: border-box;
     border-radius: 10px;
-    color: white;
+    color: #46c586;
     padding: 12px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    
     margin-left: 0%;
     margin-right: 2%;
     width: 45%;
@@ -152,6 +158,10 @@ header {
   color: #449494;
   display: none;
 }
+
+.contenedorCuatro{
+    margin-top:4%;
+  }
 
 .copiarButton {
     background-color: #46c586; /* Green */
