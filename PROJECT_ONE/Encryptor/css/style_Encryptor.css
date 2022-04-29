@@ -216,6 +216,10 @@ header {
   color: white;
 }
 
+.imagen{
+    display: none;
+  }
+
 @media only screen and (min-width: 768px) { /*Probado en ipad*/
 
  
@@ -262,6 +266,9 @@ header {
   }
   .limpiarButton {
     padding: 4%; font-size: 25px; background-color: #449494; color: white;
+  }
+  .imagen{
+    display: none;
   }
 }
 
