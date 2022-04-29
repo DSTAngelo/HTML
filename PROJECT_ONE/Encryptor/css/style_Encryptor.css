@@ -41,7 +41,7 @@ header {
 }
 
 .caja_uno{
-  position: relative; width: 96%; height:5%; margin-top: 6%; left:2%; right:2%; padding: 2%;
+  position: absolute; width: 96%; top:11%; height:30%; left:2%; right:2%; padding: 2%;
   font-family: "Inter"; font-style: normal; font-weight: 400; font-size: 20px; text-justify: justify;
   text-align: center; text-transform: lowercase;
   color: #0a3871;  background-color: #ffffff50;  border: 1px solid #46c586; border-radius: 4px;
@@ -58,7 +58,7 @@ header {
   }
 
 .mensaje_acento{
-  position: relative; width: 96%; top: 2%; left:2%; margin-top: 1%;
+  position: absolute; width: 96%; top: 42%; left:2%; margin-top: 1%;
   text-align: center; color: #449494; padding: 1%; display: inline-block;
 }
 
@@ -80,6 +80,7 @@ header {
     margin-left: 3%;
     margin-right: 2%;
     width: 45%;
+    margin-top:84%
 }
 
 .encryptorButton:hover {
@@ -113,11 +114,12 @@ header {
   }
 
 .caja_dos {
-  position: relative;
+  position:absolute;
   width: 96%;
-  height:4%;
+  height:30%;
   left:2%;
   right:2%;
+  top:59%;
   padding: 2%;
   font-family: "Inter";
   font-style: normal;
@@ -144,7 +146,7 @@ header {
 .mensajeUno{
   position: absolute;
   width: 96%;
-  top: 80%;
+  top: 65%;
   left:2%;
   text-align: center;
   font-family: 'Inter';
@@ -157,7 +159,7 @@ header {
 .mensajeDos{
   position: absolute;
   width: 96%;
-  top: 93%;
+  top: 80%;
   left:2%;
   text-align: center;
   font-family: 'Inter';
@@ -187,6 +189,7 @@ header {
     margin-left: 3%;
     margin-right: 2%;
     width: 45%;
+    margin-top: 65%;
 }
 
 .copiarButton:hover {
@@ -405,5 +408,56 @@ header {
     color: #46c586;
     text-align: center;
     font-size: 18px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1366px) {
+  .container{
+    border: 1px solid #449494; box-sizing: border-box; padding: 1% 1% 17% 1%;
+  }
+
+  .contenedor{
+     padding: 1% 1% 1% 1%;
+  }
+  .caja_uno{
+    
+    padding: 1% 1% 1% 1%;
+    top:11%;
+    float: right;
+  }
+
+  .mensaje_acento{
+    top:75%;
+    left:2%;
+  }
+
+  .caja_dos{
+    top:11%;
+  }
+
+  .encryptorButton {
+    top:84%;
+    left:0.5%;
+  }
+  .decryptorButton {
+    top:84%;
+  }
+  
+  .copiarButton {
+    
+  }
+  .limpiarButton {
+    top:84%;
+    left:34.5%;
+  }
+  .imagen{
+    
+  }
+  .mensajeUno{
+    
+  }
+  .mensajeDos{
+    
   }
 }
