@@ -41,7 +41,7 @@ header {
 }
 
 .caja_uno{
-  position: absolute; width: 96%; top:11%; height:30%; left:2%; right:2%; padding: 2%;
+  position:relative; width: 96%; margin-top:5%; height:30%; left:2%; right:2%; padding: 2%;
   font-family: "Inter"; font-style: normal; font-weight: 400; font-size: 20px; text-justify: justify;
   text-align: center; text-transform: lowercase;
   color: #0a3871;  background-color: #ffffff50;  border: 1px solid #46c586; border-radius: 4px;
@@ -58,7 +58,7 @@ header {
   }
 
 .mensaje_acento{
-  position: absolute; width: 96%; top: 42%; left:2%; margin-top: 1%;
+  position: relative; width: 96%; top: 42%; left:2%; margin-top: 1%;
   text-align: center; color: #449494; padding: 1%; display: inline-block;
 }
 
@@ -80,7 +80,7 @@ header {
     margin-left: 3%;
     margin-right: 2%;
     width: 45%;
-    margin-top:80%
+    margin-top:10%
 }
 
 .encryptorButton:hover {
