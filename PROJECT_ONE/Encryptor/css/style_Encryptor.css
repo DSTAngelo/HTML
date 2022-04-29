@@ -36,34 +36,30 @@ header {
 }
 
 .titulo {
-  position: relative;
-  width: 100%;
-  height:20%;
-  font-size: 30px;
-  font-style: bold;
-  color: #ffffff;
-  text-align: center;
-  top:20%;
+  position: relative; width: 100%; height:20%; font-size: 30px;
+  font-style: bold; color: #ffffff; text-align: center; top:20%;
 }
 
 .caja_uno{
   position: relative; width: 96%; height:5%; margin-top: 6%; left:2%; right:2%; padding: 2%;
   font-family: "Inter"; font-style: normal; font-weight: 400; font-size: 20px; text-justify: justify;
   text-align: center; text-transform: lowercase;
-  color: #0a3871;  background-color: #ffffff50;  border: 1px solid #ccc; border-radius: 4px;
+  color: #0a3871;  background-color: #ffffff50;  border: 1px solid #46c586; border-radius: 4px;
   resize: none;
 }
 
+.caja_uno::-webkit-scrollbar{
+    width: 7px;
+  }
+
+  .caja_uno::-webkit-scrollbar-thumb{
+    background: #46c586;
+    border-radius: 5px;
+  }
+
 .mensaje_acento{
-  position: relative;
-  width: 96%;
-  top: 2%;
-  left:2%;
-  margin-top: 1%;
-  text-align: center;
-  color: #449494;
-  padding: 1%;
-  display: inline-block;
+  position: relative; width: 96%; top: 2%; left:2%; margin-top: 1%;
+  text-align: center; color: #449494; padding: 1%; display: inline-block;
 }
 
 .contenedorDos{
@@ -71,11 +67,11 @@ header {
   }
 
 .encryptorButton {
-    background-color: #46c586; /* Green */
+    background-color: white; /* Green */
     border: 1px solid #bdbfc2;
     box-sizing: border-box;
     border-radius: 10px;
-    color: white;
+    color: #46c586;
     padding: 12px 32px;
     text-align: center;
     text-decoration: none;
@@ -88,8 +84,8 @@ header {
 }
 
 .encryptorButton:hover {
-  background-color: white;
-  color: #46c586;
+  background-color:#46c586;
+  color: white;
 }
 
 .decryptorButton {
@@ -133,10 +129,18 @@ header {
   text-justify: justify;
   text-transform: lowercase;
   background-color: #ffffff50;
-  border: 1px solid #ccc;
+  border: 1px solid #46c586;
   border-radius: 4px;
   resize: none;
 }
+.caja_dos::-webkit-scrollbar{
+    width: 7px;
+  }
+
+  .caja_dos::-webkit-scrollbar-thumb{
+    background: #46c586;
+    border-radius: 5px;
+  }
 
 .mensajeUno{
   position: absolute;
@@ -214,21 +218,15 @@ header {
 
 @media only screen and (min-width: 768px) { /*Probado en ipad*/
 
+ 
   .container{
-    border: 1px solid #bdbfc2; box-sizing: border-box; padding: 5%;
+    border: 1px solid #bdbfc2; box-sizing: border-box; padding: 5% 5% 27% 5%;
   }
   .caja_uno {
     font-size: 24px;
     border: 1px solid #46c586; box-sizing: border-box;
   }
-  .caja_uno::-webkit-scrollbar{
-    width: 7px;
-  }
-
-  .caja_uno::-webkit-scrollbar-thumb{
-    background: #46c586;
-    border-radius: 5px;
-  }
+  
   .mensaje_acento{
     font-family: 'Inter'; font-style: normal; font-weight: 700; font-size: 18px;
   }
@@ -237,33 +235,146 @@ header {
   }
 
   .encryptorButton {
-    padding: 4%; font-size: 25px; background-color: #449494;
+    padding: 4%; font-size: 25px; background-color: #449494; color: white;
   }
+
+  .encryptorButton:hover {
+  background-color: #46c586;
+  color: white;
+}
   .decryptorButton {
-    padding: 4%; font-size: 25px; background-color: #449494;
+    padding: 4%; font-size: 25px; background-color: #449494; color: white;
   }
+  .decryptorButton:hover {
+  background-color: #46c586;
+  color: white;
+}
   .caja_dos {
     font-size: 24px;
     border: 1px solid #46c586; box-sizing: border-box;
-  }
-  .caja_dos::-webkit-scrollbar{
-    width: 7px;
-  }
-
-  .caja_dos::-webkit-scrollbar-thumb{
-    background: #46c586;
-    border-radius: 5px;
   }
 
   .contenedorCuatro{
     padding: 6%;
   }
   .copiarButton {
-    padding: 4%; font-size: 25px; background-color: #449494;
+    padding: 4%; font-size: 25px; background-color: #449494; color: white;
   }
   .limpiarButton {
-    padding: 4%; font-size: 25px; background-color: #449494;
+    padding: 4%; font-size: 25px; background-color: #449494; color: white;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  .container{
+    border: 1px solid #bdbfc2; box-sizing: border-box; padding: 6% 5% 34% 5%;
+  }
+
+  .caja_uno{
+    display:block;
+    position: absolute;
+    width: 50%; height: 70%;
+    border-radius: 10px 30px 10px 10px;
+    float: left;
+    top: 3%;
+
+  }
+
+  .mensaje_acento{
+    display:block;
+    position: absolute;
+    width: 50%;
+    left: 1%;
+    top:80%;
+    text-align: left;
+    float: left;
+
+  }
+
+  
+
+  .caja_dos{
+    display:block;
+    position: absolute;
+    visibility: visible;
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 44%; height: 87%;
+    float: left;
+    left: 54%;
+    top: 11%;
+  }
+
+  
+  .encryptorButton {
+    display:inline-block;
+    position: absolute;
+    border-radius: 20px 10px 10px 20px;
+    width: 15%; height: 10%;
+    padding: 0%; font-size: 20px;
+    left:0%;
+    top:87%
+  }
+  .decryptorButton {
+    display:inline-block;
+    position: absolute;
+    width: 15%; height: 10%;
+    padding: 0%; font-size: 20px;
+    left:19%;
+    top:87%
   }
   
-  
+  .copiarButton {
+    display:inline-block;
+    position: absolute;
+    border-radius: 10px 10px 20px 10px;
+    width: 15%; height: 8%;
+    padding: 0%; font-size: 20px;
+    left:78.5%;
+    top:88%
+  }
+  .limpiarButton {
+    display:inline-block;
+    position: absolute;
+    border-radius: 10px 20px 20px 10px;
+    width: 15%; height: 10%;
+    padding: 0%; font-size: 20px;
+    left:35%;
+    top:87%
+  }
+  .imagen{
+    display: none;
+    position: absolute;
+    width: 35%;
+    left: 58%;
+    top:15%;
+    padding:2% 2% 2% 2%;
+    color: #151616;
+    text-align: center;
+    font-size: 24px;
+    float: left;
+  }
+  .mensajeUno{
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    top:58%;
+    padding:2% 2% 2% 2%;
+    color: #151616;
+    text-align: center;
+    font-size: 24px;
+    float: left;
+  }
+  .mensajeDos{
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    top:69%;
+    padding:2% 2% 2% 2%;
+    color: #46c586;
+    text-align: center;
+    font-size: 18px;
+  }
 }
