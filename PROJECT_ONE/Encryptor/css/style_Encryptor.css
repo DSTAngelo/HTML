@@ -218,12 +218,7 @@ header {
 .imagen{
     display: none;
     visibility:hidden;
- /*   left: 58%;
-    top:15%;
-    height: 150px;
-    width: 150px;
-    object-fit: contain;*/
-  }
+}
 
 @media only screen and (min-width: 768px) { /*Probado en ipad*/
 
@@ -274,8 +269,11 @@ header {
     top: 10%; padding: 4%; font-size: 25px; background-color: #449494; color: white;
   }
   .imagen{
+    
     display: none;
     visibility:hidden;
+   
+
   }
   .mensajeUno{
     
@@ -380,7 +378,7 @@ header {
     position: absolute;
     width: 35%;
     left: 58%;
-    top:15%;
+    top:11%;
     padding:2% 2% 2% 2%;
     color: #151616;
     text-align: center;
