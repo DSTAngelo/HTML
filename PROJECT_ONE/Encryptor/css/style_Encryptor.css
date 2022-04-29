@@ -1,6 +1,5 @@
 :root {
   --colorTextos: #8dc9e6;
- 
 }
 
 * {
@@ -13,7 +12,7 @@
 }
 
 body {
-  background: #f3f5fc; 
+  background: #f3f5fc;
   overflow: auto;
 }
 
@@ -234,22 +233,24 @@ header {
 
  
   .container{
-    border: 1px solid #bdbfc2; box-sizing: border-box; padding: 5% 5% 27% 5%;
+    border: 1px solid #bdbfc2; box-sizing: border-box; padding: 3% 3% 24.5% 5%;
   }
   .caja_uno {
     font-size: 24px;
-    border: 1px solid #46c586; box-sizing: border-box;
+    border: 1px solid #46c586; box-sizing: border-box; margin-top:3%; height:50%; padding: 1% 1% 1% 1%;
   }
   
   .mensaje_acento{
     font-family: 'Inter'; font-style: normal; font-weight: 700; font-size: 18px;
   }
   .contenedorDos{
-    padding: 6%;
+    padding: 1% 1% 1% 1%;
+    margin-top:1%;
   }
 
   .encryptorButton {
     padding: 4%; font-size: 25px; background-color: #449494; color: white;
+    margin-top: 1%; top: 1%;
   }
 
   .encryptorButton:hover {
@@ -269,8 +270,12 @@ header {
   }
 
   .contenedorCuatro{
-    padding: 6%; 
-    
+    padding: 1% 1% 1% 1%;
+  }
+
+  .contenedorCinco{
+    padding: 1% 1% 1% 1%;
+    margin-top:1%;
   }
   .copiarButton {
     top: 10%; padding: 4%; font-size: 25px; background-color: #449494; color: white;
@@ -278,30 +283,33 @@ header {
   .limpiarButton {
     top: 10%; padding: 4%; font-size: 25px; background-color: #449494; color: white;
   }
-  .imagen{
-    
-    display: none;
-    visibility:hidden;
-   
-
-  }
+  
   .mensajeUno{
     
     width: 98%;
-    top:92%;
+    
     color: #151616;
     text-align: center;
     font-size: 24px;
     float: left;
   }
   .mensajeDos{
-    
     width: 98%;
-    top:97%;
+    margin-top: 20%;
+    padding: 1% 1% 1% 1%;
     color: #46c586;
     text-align: center;
     font-size: 18px;
   }
+
+  .imagen{
+  display: flex;
+  flex-flow: row;
+  width: 1%;
+  height: 1%;
+  visibility: hidden;
+}
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
