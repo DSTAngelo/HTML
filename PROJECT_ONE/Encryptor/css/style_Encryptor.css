@@ -80,7 +80,7 @@ header {
     margin-left: 3%;
     margin-right: 2%;
     width: 45%;
-    margin-top:84%
+    margin-top:80%
 }
 
 .encryptorButton:hover {
@@ -114,7 +114,7 @@ header {
   }
 
 .caja_dos {
-  position:absolute;
+  position:relative;
   width: 96%;
   height:30%;
   left:2%;
@@ -189,7 +189,7 @@ header {
     margin-left: 3%;
     margin-right: 2%;
     width: 45%;
-    margin-top: 65%;
+    margin-top: 1%;
 }
 
 .copiarButton:hover {
