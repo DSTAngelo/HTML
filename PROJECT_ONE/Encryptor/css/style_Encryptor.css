@@ -80,7 +80,7 @@ header {
     margin-left: 3%;
     margin-right: 2%;
     width: 45%;
-    margin-top:10%
+    margin-top:8%
 }
 
 .encryptorButton:hover {
@@ -143,10 +143,15 @@ header {
     border-radius: 5px;
   }
 
+  .contenedorCuatro{
+    margin-top:4%;
+  }
+
+
 .mensajeUno{
-  position: absolute;
+  position: relative;
   width: 96%;
-  top: 80%;
+  margin-top:10%;
   left:2%;
   text-align: center;
   font-family: 'Inter';
@@ -157,23 +162,20 @@ header {
   display: none;
 }
 .mensajeDos{
-  position: absolute;
+  position: relative;
   width: 96%;
-  top: 92%;
+  margin-top: 10%;
   left:2%;
   text-align: center;
   font-family: 'Inter';
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 200%;
+  
   color: #449494;
   display: none;
 }
 
-.contenedorCuatro{
-    margin-top:4%;
-  }
 
 .copiarButton {
     background-color: white; /* Green */
@@ -219,8 +221,13 @@ header {
 }
 
 .imagen{
-    display: none;
-    visibility:hidden;
+  position: relative;
+  left: 41%;
+  display: flex;
+  flex-flow: row;
+  width: 10%;
+  height: 10%;
+  visibility: hidden;
 }
 
 @media only screen and (min-width: 768px) { /*Probado en ipad*/
