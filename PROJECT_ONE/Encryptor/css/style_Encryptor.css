@@ -145,7 +145,6 @@ header {
 
   .copiarButton {
     position: absolute;
-    display: inline-block;
     top:79.5%;
     background-color: white; /* Green */
     border: 1px solid #46c586;
@@ -159,8 +158,8 @@ header {
     margin: 0%;
     background-color: transparent;
     left:85.5%;
+    bottom: 3em;
     z-index: 30;
-    
 }
 
 .copiarButton:hover {
