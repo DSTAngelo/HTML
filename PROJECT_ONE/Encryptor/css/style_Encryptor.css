@@ -115,7 +115,7 @@ header {
 .caja_dos {
   position:relative;
   width: 96%;
-  height:30%;
+  height:40%;
   left:2%;
   right:2%;
   top:59%;
@@ -132,6 +132,7 @@ header {
   border: 1px solid #46c586;
   border-radius: 4px;
   resize: none;
+  z-index: 10;
 }
 .caja_dos::-webkit-scrollbar{
     width: 7px;
@@ -141,6 +142,31 @@ header {
     background: #46c586;
     border-radius: 5px;
   }
+
+  .copiarButton {
+    position: absolute;
+    display: block;
+    top:78%;
+    background-color: white; /* Green */
+    border: 1px solid #46c586;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #46c586;
+    padding: 3% 3%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0%;
+    background-color: transparent;
+    left:82%;
+    z-index: 30;
+    
+}
+
+.copiarButton:hover {
+  background-color: #46c586;
+  color: white;
+}
 
   .contenedorCuatro{
     margin-top:4%;
@@ -165,53 +191,35 @@ header {
   width: 96%;
   margin-top: 10%;
   left:2%;
+  height:75%;
   text-align: center;
   font-family: 'Inter';
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  
   color: #449494;
   display: none;
 }
 
 
-.copiarButton {
-    background-color: white; /* Green */
-    border: 1px solid #bdbfc2;
-    box-sizing: border-box;
-    border-radius: 10px;
-    color: #46c586;
-    padding: 12px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-left: 3%;
-    margin-right: 2%;
-    width: 45%;
-    margin-top: 1%;
-}
 
-.copiarButton:hover {
-  background-color: #46c586;
-  color: white;
-}
 
 .limpiarButton {
+    position: relative;
     background-color: white; /* Green */
     border: 1px solid #bdbfc2;
     box-sizing: border-box;
     border-radius: 10px;
+    margin: 0%;
+    top: 50%;
     color: #46c586;
-    padding: 12px 32px;
+    padding: 5% 0.5%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-left: 0%;
-    margin-right: 2%;
-    width: 45%;
+    margin-left: 1%;
+    width: 98%;
 }
 
 .limpiarButton:hover {
@@ -379,6 +387,7 @@ header {
     border-radius: 10px 10px 20px 10px;
     width: 15%; height: 8%;
     padding: 0%; font-size: 20px;
+    margin: 0;
     left:78.5%;
     top:88%
   }

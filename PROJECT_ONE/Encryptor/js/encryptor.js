@@ -18,6 +18,7 @@ function imprimir(frase) {
 function limpiarCaja(caja) {
   var content;
   content = document.getElementById(caja).value = "";
+  
 }
 
 function limpiarCajas() {
@@ -38,6 +39,7 @@ function visibilizarTexto() {
   document.getElementById("imagen_no_encontrada").style.display = "block";
   document.getElementById("respuesta").style.display = "none";
   document.getElementById("copiarTexto").style.display = "none";
+  
 
 }
 
@@ -48,7 +50,7 @@ function ocultarTexto() {
   document.getElementById("mensaje_Dos").style.display = "none";
   
   document.getElementById("respuesta").style.display = "block";
-  document.getElementById("copiarTexto").style.display = "block";
+ document.getElementById("copiarTexto").style.display = "block";
   document.getElementById("imagen_no_encontrada").style.display = "none";
   
 }
@@ -79,11 +81,14 @@ function copyToClipBoard() {
 function encryptor() {
   var frase = "";
   //frase = prompt("Escribe una frase");
+  
   frase = document.getElementsByTagName("textarea")[0].value;
-
+  
   if (frase == "") {
     visibilizarTexto();
+   
   } else {
+   
     frase = frase
       .replace(/e/gi, "enter")
       .replace(/i/gi, "imes")
