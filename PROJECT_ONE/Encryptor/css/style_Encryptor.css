@@ -144,7 +144,7 @@ header {
   }
 
   .copiarButton {
-    position: fixed;
+    position: absolute;
     display: inline-block;
     top:79.5%;
     background-color: white; /* Green */
