@@ -100,8 +100,7 @@ header {
   }
 
   .caja_dos::-webkit-scrollbar-thumb{
-    background: #46c586;
-    border-radius: 5px;
+    background: #46c586; border-radius: 5px;
   }
 
   .contenedorCuatro{
@@ -109,91 +108,45 @@ header {
   }
 
   .copiarButton{
-    position: relative;
-    background-color: white; /* Green */
-    border: 1px solid #46c586;
-    box-sizing: border-box;
-    border-radius: 10px;
-    color: #46c586;
-    padding: 4% 3%;
-    text-align: center;
-    text-decoration: none;
-    font-size: 24px;
-    margin: 0%;
-    margin-top: 10%;
-    background-color: transparent;
-    top: 8%;
-    left:0%;
-    z-index: 30;
+    position: relative;  background-color: white; /* Green */  border: 1px solid #46c586;  box-sizing: border-box;
+    border-radius: 10px;  color: #46c586;  padding: 4% 3%;  text-align: center;
+    text-decoration: none;  font-size: 24px;  margin: 0%;  margin-top: 10%;
+    background-color: transparent;  top: 8%;  left:0%;  z-index: 30;
 }
 
 .copiarButton:hover {
-  background-color: #46c586;
-  color: white;
+  background-color: #46c586; color: white;
 }
 
 .limpiarButton {
-    position: relative;
-    background-color: white; /* Green */
-    border: 1px solid #bdbfc2;
-    box-sizing: border-box;
-    border-radius: 10px;
-    top: 48%;
-    color: #46c586;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin-left: 3%;
-    width: 78%;
-    padding: 3% 3%;
+    position: relative;  background-color: white; /* Green */  border: 1px solid #bdbfc2;  box-sizing: border-box;
+    border-radius: 10px;  top: 48%;  color: #46c586;  text-align: center;  text-decoration: none;  font-size: 16px;
+    margin-left: 3%;  width: 78%;  padding: 3% 3%;
 }
 
 .limpiarButton:hover {
-  background-color: #46c586;
-  color: white;
+  background-color: #46c586;  color: white;
 }
 
 .mensajeUno{
-  position: relative;
-  width: 96%;
-  margin-top:10%;
-  left:2%;
-  text-align: center;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  color: #343A40;
-  display: none;
+  position: relative;  width: 96%;  margin-top:10%;  left:2%;  text-align: center;
+  font-family: 'Inter';  font-style: normal;  font-weight: 700;  font-size: 24px;  color: #343A40; display: none;
 }
+
 .mensajeDos{
-  position: relative;
-  width: 96%;
-  margin-top: 10%;
-  left:2%;
-  height:75%;
-  text-align: center;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  color: #449494;
-  display: none;
+  position: relative;  width: 96%;  margin-top: 10%;  left:2%;  height:75%;  text-align: center;
+  font-family: 'Inter';  font-style: normal;  font-weight: bold;  font-size: 14px;  color: #449494; display: none;
 }
 
 .imagen{
-  position: relative;
-  left: 41%;
-  display: flex;
-  flex-flow: row;
-  width: 10%;
-  height: 10%;
-  visibility: hidden;
+  position: relative; left: 41%; display: flex; flex-flow: row;
+  width: 10%; height: 10%; visibility: hidden;
 }
+
+
 
 @media only screen and (min-width: 768px) { /*Probado en ipad*/
 
- 
   .container{
     border: 1px solid #bdbfc2; box-sizing: border-box; padding: 3% 3% 24.5% 5%;
   }
@@ -243,7 +196,7 @@ header {
     top: 10%; padding: 4%; font-size: 25px; background-color: #449494; color: white;
   }
   .limpiarButton {
-    top: 10%; padding: 4%; font-size: 25px; background-color: #449494; color: white;
+    top: 10%; padding: 4% 4%; font-size: 25px; background-color: #449494; color: white;
   }
   
   .mensajeUno{
