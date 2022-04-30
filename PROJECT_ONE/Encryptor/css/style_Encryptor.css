@@ -193,10 +193,11 @@ header {
     margin-top:1%;
   }
   .copiarButton {
-    top: 10%; left: 5%; padding: 2% 2%;; font-size: 25px; background-color: #449494; color: white;
+    position: absolute;
+    top: 64%; left: 86%; padding: 2% 2%;; font-size: 25px; background-color: #449494; color: white;
   }
   .limpiarButton {
-    top: 10%; padding: 5% 5%; font-size: 25px; background-color: #449494; color: white;
+    top: 10%; width: 94%; font-size: 25px; background-color: #449494; color: white;
   }
   
   .mensajeUno{
