@@ -145,8 +145,8 @@ header {
 
   .copiarButton {
     position: fixed;
-    display: flex;
-    top:80%;
+    display: inline-block;
+    top:79.5%;
     background-color: white; /* Green */
     border: 1px solid #46c586;
     box-sizing: border-box;
