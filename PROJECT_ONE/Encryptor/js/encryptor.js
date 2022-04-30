@@ -38,9 +38,7 @@ function visibilizarTexto() {
   document.getElementById("mensaje_Dos").style.display = "block";
   document.getElementById("imagen_no_encontrada").style.display = "block";
   document.getElementById("respuesta").style.display = "none";
-  document.getElementById("copiarTexto").style.display = "none";
-  
-
+  document.getElementById("copiarTexto");
 }
 
 //Ocultar
@@ -48,9 +46,7 @@ function visibilizarTexto() {
 function ocultarTexto() {
   document.getElementById("mensaje_Uno").style.display = "none";
   document.getElementById("mensaje_Dos").style.display = "none";
-  
   document.getElementById("respuesta").style.display = "block";
- document.getElementById("copiarTexto").style.display = "block";
   document.getElementById("imagen_no_encontrada").style.display = "none";
   
 }
@@ -59,6 +55,12 @@ function ocultar_cajas(){
   visibilizarTexto();
   document.getElementById("respuesta").style.display = "none";
   document.getElementById("botonEncriptar").style.display = "none";
+}
+
+
+function desactivar_Boton(nombreBoton) {
+  const btnCopiar = document.getElementById(nombreBoton);
+  btnCopiar.disabled = true;
 }
 // Funcion Copy
 

@@ -66,20 +66,9 @@ header {
   }
 
 .encryptorButton {
-    background-color: white; /* Green */
-    border: 1px solid #bdbfc2;
-    box-sizing: border-box;
-    border-radius: 10px;
-    color: #46c586;
-    padding: 12px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-left: 3%;
-    margin-right: 2%;
-    width: 45%;
-    margin-top:8%
+    background-color: white; /* Green */ border: 1px solid #bdbfc2; box-sizing: border-box; border-radius: 10px;
+    color: #46c586; padding: 12px 32px; text-align: center; text-decoration: none;display: inline-block;
+    font-size: 16px; margin-left: 3%; margin-right: 2%; width: 45%; margin-top:8%
 }
 
 .encryptorButton:hover {
@@ -88,24 +77,13 @@ header {
 }
 
 .decryptorButton {
-  background-color: white; /* Green */
-    border: 1px solid #bdbfc2;
-    box-sizing: border-box;
-    border-radius: 10px;
-    color: #46c586;
-    padding: 12px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-left: 0%;
-    margin-right: 2%;
-    width: 45%;
+  background-color: white; /* Green */ border: 1px solid #bdbfc2;  box-sizing: border-box;  border-radius: 10px;  color: #46c586;
+    padding: 12px 32px;  text-align: center;  text-decoration: none;  display: inline-block;  font-size: 16px;
+    margin-left: 0%;  margin-right: 2%;  width: 45%;
 }
 
 .decryptorButton:hover {
-  background-color: #46c586;
-  color: white;
+  background-color: #46c586; color: white;
 }
 
 .contenedorTres{
@@ -113,26 +91,9 @@ header {
   }
 
 .caja_dos {
-  position:relative;
-  width: 96%;
-  height:40%;
-  left:2%;
-  right:2%;
-  top:59%;
-  padding: 2%;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  color: #0a3871;
-  text-align: center;
-  text-justify: justify;
-  text-transform: lowercase;
-  background-color: #ffffff50;
-  border: 1px solid #46c586;
-  border-radius: 4px;
-  resize: none;
-  z-index: 10;
+  position:relative; width: 96%; height:40%; left:2%; right:2%; top:59%; padding: 2%; font-family: "Inter"; font-style: normal;
+  font-weight: 400;  font-size: 20px;  color: #0a3871;  text-align: center;  text-justify: justify; text-transform: lowercase;
+  background-color: #ffffff50; border: 1px solid #46c586; border-radius: 4px; resize: none; z-index: 10;
 }
 .caja_dos::-webkit-scrollbar{
     width: 7px;
@@ -143,27 +104,27 @@ header {
     border-radius: 5px;
   }
 
+  .contenedorCuatro{
+    margin-top:0%;  padding: 1% 1% 1% 1%;
+  }
+
   .copiarButton{
-    
+    position: relative;
     background-color: white; /* Green */
     border: 1px solid #46c586;
     box-sizing: border-box;
     border-radius: 10px;
     color: #46c586;
-    padding: 2% 2%;
+    padding: 4% 3%;
     text-align: center;
     text-decoration: none;
     font-size: 24px;
     margin: 0%;
+    margin-top: 10%;
     background-color: transparent;
-    left:85.5%;
+    top: 8%;
+    left:0%;
     z-index: 30;
-}
-
-.copiarButton:first-child{
-  position: absolute;
-  display: inline-flex;
-  top: 79%;
 }
 
 .copiarButton:hover {
@@ -171,11 +132,26 @@ header {
   color: white;
 }
 
-  .contenedorCuatro{
-    margin-top:0%;
-    padding: 1% 3% 1% 3%;
-  }
+.limpiarButton {
+    position: relative;
+    background-color: white; /* Green */
+    border: 1px solid #bdbfc2;
+    box-sizing: border-box;
+    border-radius: 10px;
+    top: 48%;
+    color: #46c586;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 3%;
+    width: 78%;
+    padding: 3% 3%;
+}
 
+.limpiarButton:hover {
+  background-color: #46c586;
+  color: white;
+}
 
 .mensajeUno{
   position: relative;
@@ -203,30 +179,6 @@ header {
   font-size: 14px;
   color: #449494;
   display: none;
-}
-
-.limpiarButton {
-    position: relative;
-    background-color: white; /* Green */
-    border: 1px solid #bdbfc2;
-    box-sizing: border-box;
-    border-radius: 10px;
-    margin: 0%;
-    margin-top:10%;
-    top: 50%;
-    color: #46c586;
-    padding: 5% 0.5%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-left: 1%;
-    width: 90%;
-}
-
-.limpiarButton:hover {
-  background-color: #46c586;
-  color: white;
 }
 
 .imagen{
