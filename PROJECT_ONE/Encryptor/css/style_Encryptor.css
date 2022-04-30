@@ -144,21 +144,21 @@ header {
   }
 
   .copiarButton {
-    position: absolute;
-    display: block;
-    top:78%;
+    position: fixed;
+    display: flex;
+    top:80%;
     background-color: white; /* Green */
     border: 1px solid #46c586;
     box-sizing: border-box;
     border-radius: 10px;
     color: #46c586;
-    padding: 3% 3%;
+    padding: 2% 2%;
     text-align: center;
     text-decoration: none;
     font-size: 24px;
     margin: 0%;
     background-color: transparent;
-    left:82%;
+    left:85.5%;
     z-index: 30;
     
 }
@@ -170,6 +170,7 @@ header {
 
   .contenedorCuatro{
     margin-top:4%;
+    padding: 1% 3% 1% 3%;
   }
 
 
@@ -200,9 +201,6 @@ header {
   color: #449494;
   display: none;
 }
-
-
-
 
 .limpiarButton {
     position: relative;
