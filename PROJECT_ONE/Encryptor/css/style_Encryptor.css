@@ -155,7 +155,7 @@ header {
   }
 
   .encryptorButton {
-    position: absolute; width:30%; top: 55%; left: 65%;
+    position: absolute; padding: 5% 1%; top: 55%; left: 65%; width: 30%;
   }
 
 .decryptorButton {
