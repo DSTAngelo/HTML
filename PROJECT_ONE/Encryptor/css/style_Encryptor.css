@@ -135,21 +135,21 @@ header {
 
 .imagen{
   position: relative; left: 41%; display: flex; flex-flow: row;
-  width: 10%; height: 10%; visibility: hidden;
+  width: 10%; height: 10%; display: none;
 }
 
-
+/*-------------------------------------------------------------------------------------------------------------*/
 
 @media only screen and (min-width: 768px) { /*Probado en ipad*/
 
   .container{
-    border: 1px solid #bdbfc2; box-sizing: border-box; padding: 3% 3% 100% 5%; width: 100%;
+    border: 1px solid #bdbfc2; box-sizing: border-box; padding: 7% 5% 116% 5%; width: 100%;
   }
   .contenedor{
     position: absolute;
-    top: 6%; left: 3%; margin: 0%;
+    top: 6%; left: 1%; margin: 0%;
     width: 100%;
-    height: 40%;
+    height: 52%;
   }
   .caja_uno {
     font-size: 24px;
@@ -159,21 +159,21 @@ header {
   }
   
   .mensaje_acento{
-    position: absolute;
+    position: absolute; display: inline-block;
     font-family: 'Inter'; font-style: normal; font-weight: 700; font-size: 18px; margin: 0%;
-    top: 50%; left: 66%; padding: 0% 0% 0% 0%;
-    width: 25%;
+    top: 92%; left: 1%; padding: 0% 0% 0% 0%; margin-left: 1%;
+    width: 50%;
   }
   .contenedorDos{
-    position: absolute;
-    top: 14%; left: 60%; margin: 0%;
-    width: 100%;
-    height: 7%;
+    position: absolute; display: inline-block;
+    top: 36%; left: 61.5%; margin: 0% 0% 0% 0%; padding: 0% 0% 0% 0%;
+    width: 40%; height: 15%; margin-left: 0%;
+    
   }
 
   .encryptorButton {
-    position: absolute; font-size: 25px; background-color: #449494; color: white;
-    top: 2%; width: 30%; left: 6%; margin: 0%;
+    position: absolute; display: inline-block; font-size: 25px; background-color: #449494; color: white;
+    top: 2%; width: 83%; left: 6%; margin: 0%; margin-top: 5%;
     
   }
 
@@ -182,48 +182,44 @@ header {
   color: white;
 }
   .decryptorButton {
-    position: absolute;
+    position: absolute; display: inline-block;
     font-size: 25px; background-color: #449494; color: white;   
-    top:85%; width: 30%;  left:6%; margin: 0%;
+    top:50%; width: 83%;  left:6%; margin: 0%;
   }
   .decryptorButton:hover {
   background-color: #46c586;
   color: white;
 }
-  .contenedorTres{
-    
-    position: absolute;
-    margin-top:0%;
-    top: 18%; height:50%; width: 50%;
-  }
-/*
+
   .caja_dos {
-    position: absolute;
-    height:50%;
+    position: absolute; top:59%; left: 3%; width: 94%; height:38%;
     font-size: 24px;
     border: 1px solid #46c586; box-sizing: border-box;
   }
-*/
+
   .contenedorCuatro{
     padding: 1% 1% 1% 1%;
   }
 
+  
+  .copiarButton {
+    position: absolute;
+    top: 86%; left: 88%; padding: 2% 2%;; font-size: 25px;  color: rgb(17, 168, 93);
+    background-color: transparent; 
+  }
+  .limpiarButton {
+    position: absolute;  top: 49.5%; width: 33%; height: 7%;  font-size: 25px; left: 61%;
+    color: #449494; margin-top: 1%; background-color: transparent; 
+  }
+  
   .contenedorCinco{
+    position: absolute; display: inline-block; top: 70%; left: 10%;
     padding: 1% 1% 1% 1%;
     margin-top:1%;
   }
-  .copiarButton {
-    position: absolute;
-    top: 64%; left: 86%; padding: 2% 2%;; font-size: 25px; background-color: #449494; color: white;
-  }
-  .limpiarButton {
-    top: 10%; width: 94%; font-size: 25px; background-color: #449494; color: white; visibility: hidden;
-  }
-  
   .mensajeUno{
     
     width: 98%;
-    
     color: #151616;
     text-align: center;
     font-size: 24px;
@@ -239,11 +235,11 @@ header {
   }
 
   .imagen{
-  display: flex;
-  flex-flow: row;
-  width: 1%;
-  height: 1%;
-  visibility: hidden;
+  position: absolute;
+  top: 60%;
+  width: 15%;
+  height: 15%;
+  
   }
 
 }

@@ -38,7 +38,7 @@ function visibilizarTexto() {
   document.getElementById("mensaje_Dos").style.display = "block";
   document.getElementById("imagen_no_encontrada").style.display = "block";
   document.getElementById("respuesta").style.display = "none";
-  document.getElementById("copiarTexto");
+  
 }
 
 //Ocultar
