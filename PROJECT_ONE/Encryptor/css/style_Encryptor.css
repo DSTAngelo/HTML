@@ -143,7 +143,7 @@ header {
 @media only screen and (min-width: 768px) { /*Probado en ipad*/
 
   .caja_uno{
-    position: absolute; width: 65%; height: 44%; top: 3% ;left: 2%;
+    position: absolute; width: 65%; height: 44%; top: 4% ;left: 2%;
   }
 
   .mensaje_acento{
