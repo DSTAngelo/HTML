@@ -270,6 +270,10 @@ p{
   .caja_uno{
      height: 40%;
   }
+
+  .caja_dos{
+     text-align: justify;
+  }
  
   .limpiarButton {
     top: 41%;  
@@ -280,3 +284,71 @@ p{
   }
 
 }
+
+@media only screen and (min-width: 1366px) { /*Probado en http://responsivetesttool.com/*/
+
+
+  .caja_uno{
+      height: 38%;
+  }
+
+  .mensaje_acento{
+     top: 43% ;
+  }
+
+  .caja_dos{
+     top: 52%; text-align: justify;
+  }
+ 
+  .copiarButton {
+     top: 39%;  left: 85.8%; margin-top: 0%; width: 10%; height: 11%;
+  }
+
+  .limpiarButton {
+    top: 39%;  
+  }
+
+  .imagen{
+    width: 25%; height: 40%; top: 58% ;left: 68%; 
+  }
+
+  footer{
+     top: 85% ; 
+
+  }
+}
+
+
+@media only screen and (min-width: 1440px) { /*Probado en http://responsivetesttool.com/*/
+
+  .caja_dos{
+      top: 51%; text-align: justify;
+    }
+ 
+  .copiarButton {
+     height: 10%;
+  }
+
+  .limpiarButton {
+    top: 39%;  
+  }
+
+  .mensajeUno{
+     top: 50%;
+  }
+
+  .mensajeDos{
+     top: 60%;
+  }
+
+  .imagen{
+    width: 20%; height: 30%; top: 58% ;left: 68%; 
+  }
+
+  footer{
+     top: 85% ; 
+
+}
+
+}
+
