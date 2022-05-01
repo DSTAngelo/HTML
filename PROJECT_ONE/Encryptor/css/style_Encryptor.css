@@ -352,3 +352,36 @@ p{
 
 }
 
+@media only screen and (min-width: 1920px) { /*Probado en http://responsivetesttool.com/*/
+
+  .caja_uno{
+      top: 1%; 
+    }
+ 
+  .copiarButton {
+    top: 37.5%; width: 10%; height: 12%;
+  }
+ 
+  .limpiarButton {
+    top: 37%;  
+  }
+
+  .mensajeUno{
+     top: 50%;
+  }
+
+  .mensajeDos{
+     top: 60%;
+  }
+
+  .imagen{
+    width: 20%; height: 30%; top: 58% ;left: 68%; 
+  }
+
+  footer{
+     top: 85% ; 
+
+}
+
+}
+
