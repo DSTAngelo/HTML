@@ -246,6 +246,19 @@ p{
      top: 41%;  left: 85.8%; margin-top: 0%; width: 10%; height: 10%;
   }
 
+  .mensajeUno{
+     top: 55% ;left: 3%;  text-align: center;
+  }
+
+  .mensajeDos{
+     top: 64% ;left: 3%;  text-align: center;
+  }
+
+  .imagen{
+    width: 35%; height: 40%; top: 55% ;left: 65%;  text-align: center;
+  }
+
+
   footer{
      top: 88% ; height: 4%; margin-top:5%;
   }
