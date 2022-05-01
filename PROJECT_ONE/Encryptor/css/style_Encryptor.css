@@ -166,12 +166,12 @@ header {
   position: absolute;  top: 55%;  width: 30%; height: 40%;
   }
 
-.copiarButton {
-  visibility: hidden;
+.limpiarButton {
+    position: absolute;  left: 64%; top: 44.7%;  width: 17%; height: 8%;
 }
 
-.limpiarButton {
-    position: absolute;  left: 64%; top: 44.5%;  width: 28%; height: 8%;
+.copiarButton {
+  position: absolute;  left: 85%; top: 41%;  width: 10%; height: 8%;
 }
 
 .mensajeUno{
