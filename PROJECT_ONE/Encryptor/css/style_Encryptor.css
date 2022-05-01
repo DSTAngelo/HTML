@@ -229,7 +229,6 @@ p{
      top: 44% ;
   }
 
-
   .caja_dos{
      top: 53%; left: 2%;
   }
@@ -255,12 +254,29 @@ p{
   }
 
   .imagen{
-    width: 35%; height: 40%; top: 55% ;left: 65%;  text-align: center;
+    width: 35%; height: 40%; top: 55% ;left: 65%; 
   }
 
 
   footer{
      top: 88% ; height: 4%; margin-top:5%;
+  }
+
+}
+
+@media only screen and (min-width: 1280px) { /*Probado en http://responsivetesttool.com/*/
+
+
+  .caja_uno{
+     height: 40%;
+  }
+ 
+  .limpiarButton {
+    top: 41%;  
+  }
+
+  .imagen{
+    width: 30%; height: 40%; top: 58% ;left: 68%; 
   }
 
 }
