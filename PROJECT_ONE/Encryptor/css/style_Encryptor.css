@@ -134,7 +134,7 @@ header {
 }
 
 .imagen{
-  position: relative; left: 41%; display: flex; flex-flow: row;
+  position: relative; left: 49%; display: flex; flex-flow: row;
   width: 10%; height: 10%; display: none;
 }
 
