@@ -147,7 +147,7 @@ header {
   }
 
   .mensaje_acento{
-    visibility: hidden;
+    position: absolute; width: 61%; height: 44%; top: 48% ;left: 2%; height: 3%; text-align: left;
   }
 
   .caja_dos{
@@ -155,16 +155,17 @@ header {
   }
 
   .contenedorDos{
-    position: absolute; left: 67%; top: 20%; margin: 0% 0% 0% 0%; padding: 0% 0% 0% 0%; height: 25%;
+    position: absolute; left: 67%; top: 15%; margin: 0% 0% 0% 0%; padding: 0% 0% 0% 0%; height: 15%;
   }
 
   .encryptorButton {
-    position: absolute; top: 1%;  width: 30%; height: 30%;
+    position: absolute; top: 1%;  width: 30%; height: 40%;
   }
 
 .decryptorButton {
-  position: absolute;  top: 50%;  width: 30%; height: 30%;
+  position: absolute;  top: 55%;  width: 30%; height: 40%;
   }
+
 .copiarButton {
   visibility: hidden;
 }
