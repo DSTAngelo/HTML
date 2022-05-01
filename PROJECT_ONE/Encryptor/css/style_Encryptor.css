@@ -154,12 +154,16 @@ header {
     position: absolute; width: 96%; height: 40%; top: 55%; left: 2%;
   }
 
+  .contenedorDos{
+    position: absolute; left: 67%; top: 20%; margin: 0% 0% 0% 0%; padding: 0% 0% 0% 0%; height: 25%;
+  }
+
   .encryptorButton {
-    position: absolute; padding: 5% 1%; top: 55%; left: 65%; width: 30%;
+    position: absolute; padding: 5% 3%; top: 1%;  width: 30%;
   }
 
 .decryptorButton {
-  visibility: hidden;
+  position: absolute; padding: 5% 3%; top: 50%;  width: 30%;
   }
 .copiarButton {
   visibility: hidden;
