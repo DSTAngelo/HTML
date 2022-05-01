@@ -140,7 +140,22 @@ header {
 
 
 footer{
-  visibility: hidden;
+  position: relative; 
+  left: 0%;
+  background-color: rgba (68, 148, 148, 0.5);
+  margin-top: 4%;
+  height: 8%;
+  width: 100%;
+  top: 110%;
+  background: linear-gradient(to right, #3caa94,#449494, #3caa94);
+  transition: 0.3s ease all;
+  text-align: center;
+  color: #fff;
+}
+
+p{
+  position: relative; width: 100%; height:20%; font-size: 14px;
+  font-style: bold; color: #ffffff; text-align: center; top:20%;
 }
 
 /*-------------------------------------------------------------------------------------------------------------*/
@@ -193,8 +208,41 @@ footer{
 
 
 footer{
-  visibility: hidden;
+  position: absolute; top: 92% ; height: 4%; margin-top:5%;text-align: center;
+}
+
+p{
+  position: relative; width: 100%; height:20%; font-size: 19px;
+  font-style: bold; color: #ffffff; text-align: center; top:20%;
 }
 
 }
 
+@media only screen and (min-width: 1024px) { /*Probado en ipad*/
+
+
+  .caja_uno{
+    position: absolute; width: 61%; height: 44%; top: 3% ;left: 2%; 
+  }
+
+  .caja_dos{
+     top: 55%; left: 2%;
+  }
+
+  .contenedorDos{
+    position: absolute; left: 67%; top: 15%; margin: 0% 0% 0% 0%; padding: 0% 0% 0% 0%; height: 15%; width: 30%;
+  }
+
+  .limpiarButton {
+    top: 45.4%;  width: 18%; height: 8%;
+  }
+
+  .copiarButton {
+     top: 39%;  left: 86%;
+  }
+
+  footer{
+    position: absolute; top: 90% ; height: 4%; margin-top:5%;text-align: center;
+  }
+
+}
