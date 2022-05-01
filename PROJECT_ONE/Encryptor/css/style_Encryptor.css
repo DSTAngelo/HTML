@@ -175,15 +175,16 @@ header {
 }
 
 .mensajeUno{
-  visibility: hidden;
-}
+  position: absolute; width: 61%; height: 44%; top: 65% ;left: 3%;  text-align: center;
+  }
 
 .mensajeDos{
-  visibility: hidden;
+  position: absolute; width: 61%; height: 44%; top: 75% ;left: 3%;  text-align: center;
 }
 
 .imagen{
-  visibility: hidden;
+  position: absolute; width: 45%; height: 44%; top: 56% ;left: 55%;  text-align: center;
+}
 }
 
 footer{
