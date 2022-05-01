@@ -159,11 +159,11 @@ header {
   }
 
   .encryptorButton {
-    position: absolute; padding: 5% 3%; top: 1%;  width: 30%;
+    position: absolute; top: 1%;  width: 30%; height: 30%;
   }
 
 .decryptorButton {
-  position: absolute; padding: 5% 3%; top: 50%;  width: 30%;
+  position: absolute;  top: 50%;  width: 30%; height: 30%;
   }
 .copiarButton {
   visibility: hidden;
